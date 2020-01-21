@@ -1,0 +1,40 @@
+.aboutMeContainer {
+    height:100%;
+    width:100%;
+    justify-content: center;
+    transition-duration: 2s;
+    opacity: 1;
+}
+
+.aboutMeInactive {
+        height:100%;
+    margin-left:-100%;
+    opacity: 0.0;
+    transition-duration: 2s;
+}
+
+.aboutMeHeading{
+
+}
+
+.aboutMeTextContainer{
+padding-top: 14vh;
+    text-align: center;
+    width:60%;
+    margin: auto;
+}
+
+.aboutMeTextContainer h1{
+}
+
+.viewPortfolioButton{
+    margin-top:3vh;
+    /*color:#080752 !important;*/
+    /*border-color:#080752 !important;*/
+}
+
+/*.viewPortfolioButton:hover{*/
+/*    color:#FFFFFF !important;*/
+/*    border-color:#080752 !important;*/
+/*    background-color: #080752;*/
+/*}*/

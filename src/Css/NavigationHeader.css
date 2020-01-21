@@ -1,0 +1,39 @@
+.navigationHeader {
+    /*border:1px solid red;*/
+    height: 10vh;
+    width: 100%;
+    display: inline-flex;
+    background: transparent;
+    padding:2.5vh;
+}
+
+.navigationTitle {
+    display: inline-flex;
+    text-align: left;
+    margin-top: 1%;
+}
+
+.navigationClearSpaceAndLinks {
+    display: inline-flex;
+}
+
+.navigationLinks {
+    display: inline-flex;
+}
+
+.navigationLink {
+    padding: 10px;
+}
+
+.navigationLink:hover {
+    cursor: pointer;
+    color: lightgray;
+    transition-duration: .2s;
+
+}
+
+
+.active {
+    color: #007bff !important;
+    transition-duration: .5s;
+}
