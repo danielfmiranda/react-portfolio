@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c486c963-7d20-4753-997b-e878c988d0df" name="Default Changelist" comment="kk">
-      <change afterPath="$PROJECT_DIR$/src/Components/AboutMeSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ContainerCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ContentContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/NavigationHeader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PortfolioProjects.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ProjectDetails.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Css/AboutMeSection.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Css/ContainerCard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Css/ContentContainer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Css/NavigationHeader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Css/PortfolioProjects.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Css/ProjectDetails.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
-    </list>
+    <list default="true" id="c486c963-7d20-4753-997b-e878c988d0df" name="Default Changelist" comment="kk" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,6 +194,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -251,24 +234,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579398414656</updated>
-      <workItem from="1579398419082" duration="21445000" />
+      <workItem from="1579398419082" duration="21670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21445000" />
+    <option name="totallyTimeSpent" value="21670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="820" extended-state="6" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3855508" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3855508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
