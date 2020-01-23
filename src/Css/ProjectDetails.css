@@ -1,0 +1,25 @@
+.modal-content{
+      height:80vh !important;
+    width:63vw;
+  border-radius: 1em !important;
+
+}
+
+.projectDetailsContainer{
+    margin-left:-18vw;
+    margin-top:7vh;
+    text-align: center;
+
+}
+
+.projectDetailsInfo{
+    padding-top:3%;
+    width:75%;
+    margin:auto;
+}
+
+.projectDetailsTitle {
+    font-size: 3.5em ;
+    border-bottom:3px solid;
+    padding-bottom: 3%;
+}

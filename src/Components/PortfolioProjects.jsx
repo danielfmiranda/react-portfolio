@@ -10,7 +10,7 @@ class PortfolioProjects extends Component {
             <div className={'portfolioProjectsContainer' + ' ' + `${this.props.showPortfolio ? ('portfolioActive') : ( 'portfolioInactive' )}` }>
                 <div className={'portfolioRow'}>
                     <div className={'col-4 red '}>
-                          <Card onClick={this.props.clickProjectDetails}className={'projectCell project1'}>
+                          <Card onClick={this.props.clickProjectDetails }className={'projectCell project1'}>
                               <div className={'text'}>
                             <h1 className={'projectTitle'}> Project 1 </h1>
                               </div>

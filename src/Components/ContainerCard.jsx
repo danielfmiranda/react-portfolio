@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import Card from "react-bootstrap/Card";
-import NavigationHeader from "./NavigationHeader";
-import ContentContainer from "./ContentContainer";
-import ProjectDetails from "./ProjectDetails";
+import Card from 'react-bootstrap/Card';
+import NavigationHeader from './NavigationHeader';
+import ContentContainer from './ContentContainer';
+import ProjectDetails from './ProjectDetails';
 
 class ContainerCard extends Component {
 
@@ -12,9 +12,9 @@ class ContainerCard extends Component {
         super(props);
         this.state = {
             contentShown: 'aboutMe',
-            showAboutMe:true,
-            showPortfolio:false,
-            showProjectDetails:false
+            showAboutMe: true,
+            showPortfolio: false,
+            showProjectDetails: false
         };
     }
 
@@ -41,7 +41,14 @@ class ContainerCard extends Component {
     clickProjectDetails = () => {
         console.log('projectDivClicked');
         this.setState({
-            showProjectDetails:true
+            showProjectDetails: true
+        })
+    }
+
+    closeProjectDetails = () => {
+        console.log('projectDivClicked');
+        this.setState({
+            showProjectDetails: false
         })
     }
 
@@ -63,13 +70,19 @@ class ContainerCard extends Component {
                 <div className={'contentContainer'}>
                     <ContentContainer
                         contentShown={this.state.contentShown}
-                         showPortfolio={this.state.showPortfolio}
+                        showPortfolio={this.state.showPortfolio}
                         clickPortfolioButton={this.clickPortfolioButton}
                         clickProjectDetails={this.clickProjectDetails}
+                        closeProjectDetails={this.closeProjectDetails}
+
                         showAboutMe={this.state.showAboutMe}
 
                     />
-                <ProjectDetails showProjectDetails={this.state.showProjectDetails}/>
+                    <ProjectDetails
+                        showProjectDetails={this.state.showProjectDetails}
+                        closeProjectDetails={this.closeProjectDetails}
+
+                    />
 
                 </div>
             </Card>

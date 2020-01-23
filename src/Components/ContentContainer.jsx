@@ -20,6 +20,7 @@ class ContentContainer extends Component {
                     <PortfolioProjects
                         showPortfolio={this.props.showPortfolio}
                         clickProjectDetails={this.props.clickProjectDetails}
+                        closeProjectDetails={this.props.closeProjectDetails}
                     />
 
 

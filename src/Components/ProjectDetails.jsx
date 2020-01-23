@@ -3,29 +3,37 @@ import PropTypes from 'prop-types';
 import '../Css/ProjectDetails.css'
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
+import image1 from '../portfolioTestPictures/2.jpg'
+
 class ProjectDetails extends Component {
     render() {
         return (
-                <Modal show={false} className={'projectDetailsContainer' + ' ' + `${this.props.showProjectDetails ? ('projectDetailsActive') : ( 'projectDetailsInactive' )}`}>
+            <Modal show={this.props.showProjectDetails}
+                   className={'projectDetailsContainer' + ' ' + `${this.props.showProjectDetails ? ('projectDetailsActive') : ('projectDetailsInactive')}`}
+                   onHide={this.props.closeProjectDetails}
+            >
 
-    >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Modal heading
-        </Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
-        <h4>Centered Modal</h4>
-        <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
-        </p>
-      </Modal.Body>
-      <Modal.Footer>
-        <Button >Close</Button>
-      </Modal.Footer>
-    </Modal>
+
+                <Modal.Body closeButton>
+                    <div className={'projectDetailsInfo'}>
+
+
+                        <h1 className={'projectDetailsTitle'}>Name of Project</h1>
+
+                        <img className={'projectDetailsImage'}  src={{image1}}/>
+
+
+                        <p>
+                            Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+                            dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+                            consectetur ac, vestibulum at eros.
+                        </p>
+                        <Button onClick={this.props.closeProjectDetails}>Back</Button>
+                    </div>
+
+                </Modal.Body>
+
+            </Modal>
 
         );
     }
