@@ -4,29 +4,33 @@ import '../Css/PortfolioProjects.css'
 import Card from 'react-bootstrap/Card'
 import project1 from '../portfolioTestPictures/lombard.jpg'
 
+
+
 class PortfolioProjects extends Component {
     render() {
         return (
             <div className={'portfolioProjectsContainer' + ' ' + `${this.props.showPortfolio ? ('portfolioActive') : ( 'portfolioInactive' )}` }>
                 <div className={'portfolioRow'}>
                     <div className={'col-4 red '}>
-                          <Card onClick={this.props.clickProjectDetails}className={'projectCell project1'}>
+                          <Card onClick={() => this.props.clickProjectDetails(1)} className={'projectCell project1'}>
                               <div className={'text'}>
                             <h1 className={'projectTitle'}> Project 1 </h1>
                               </div>
                         </Card>
                     </div>
                     <div className={'col-4 yellow '}>
-              <Card className={'projectCell project2 '}>
+              <Card onClick={() => this.props.clickProjectDetails(2)}
+                  className={'projectCell project2 '}>
                               <div className={'text'}>
                             <h1 className={'projectTitle'}> Project 2 </h1>
                               </div>
                         </Card>
                     </div>
                     <div className={'col-4 green '}>
-                      <Card className={'projectCell project3'}>
+                      <Card  onClick={() => this.props.clickProjectDetails(3)}
+                          className={'projectCell project3'}>
                               <div className={'text'}>
-                            <h1 className={'projectTitle'}> Project 3 </h1>
+                            <h1 className={'projectTitle'}> Refillr </h1>
                               </div>
                         </Card>
                     </div>
@@ -34,23 +38,27 @@ class PortfolioProjects extends Component {
                 </div>
                 <div className={'portfolioRow'}>
                     <div className={'col-4 red '}>
-                           <Card className={'projectCell project4'}>
+                           <Card
+                               onClick={() => this.props.clickProjectDetails(4)}
+                               className={'projectCell project4'}>
                               <div className={'text'}>
-                            <h1 className={'projectTitle'}> Project 4 </h1>
+                            <h1 className={'projectTitle'}> Timely </h1>
                               </div>
                         </Card>
                     </div>
                     <div className={'col-4 yellow '}>
-                          <Card className={'projectCell project5'}>
+                          <Card onClick={() => this.props.clickProjectDetails(5)}
+                              className={'projectCell project5'}>
                               <div className={'text'}>
-                            <h1 className={'projectTitle'}> Project 5 </h1>
+                            <h1 className={'projectTitle'}> Greendly </h1>
                               </div>
                         </Card>
                     </div>
                     <div className={'col-4 green '}>
-                     <Card className={'projectCell project6'}>
+                     <Card onClick={() => this.props.clickProjectDetails(6)}
+                         className={'projectCell project6'}>
                               <div className={'text'}>
-                            <h1 className={'projectTitle'}> Project 6 </h1>
+                            <h1 className={'projectTitle'}> SocialCompile </h1>
                               </div>
                         </Card>
                     </div>

@@ -129,25 +129,26 @@
 }
 
 .project3 {
-    background-image: url("../portfolioTestPictures/3.jpg");
+    background-image: url("../portfolioTestPictures/refillrTestPhoto.png");
     -webkit-background-size: cover;
     background-size: cover;
+    background-position-x: -2%;
 }
 
 .project4 {
-    background-image: url("../portfolioTestPictures/4.jpg");
+    background-image: url("../portfolioTestPictures/timelyCover.jpeg");
     -webkit-background-size: cover;
     background-size: cover;
 }
 
 .project5 {
-    background-image: url("../portfolioTestPictures/5.jpg");
+    background-image: url("../portfolioTestPictures/greendly.png");
     -webkit-background-size: cover;
     background-size: cover;
 }
 
 .project6 {
-    background-image: url("../portfolioTestPictures/6.jpg");
+    background-image: url("../portfolioTestPictures/socialCompile.png");
     -webkit-background-size: cover;
     background-size: cover;
 }

@@ -4,7 +4,7 @@ import '../Css/ContentContainer.css';
 import PortfolioProjects from "./PortfolioProjects";
 import AboutMeSection from "./AboutMeSection";
 import NavigationHeader from "./NavigationHeader";
-import ProjectDetails from "./ProjectDetails";
+import Project1Details from "./ProjectDetailModals/Project1Details";
 
 class ContentContainer extends Component {
     render() {
@@ -20,6 +20,7 @@ class ContentContainer extends Component {
                     <PortfolioProjects
                         showPortfolio={this.props.showPortfolio}
                         clickProjectDetails={this.props.clickProjectDetails}
+                        closeProjectDetails={this.props.closeProjectDetails}
                     />
 
 

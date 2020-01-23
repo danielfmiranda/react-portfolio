@@ -1,0 +1,38 @@
+.modal-content{
+      height:83vh !important;
+    width:66vw;
+  border-radius: 1em !important;
+
+}
+
+.projectDetailsContainer{
+    margin-left:-14.5vw;
+    margin-top:5vh;
+    text-align: center;
+
+}
+
+.projectDetailsInfo{
+    padding-top:1%;
+    width:75%;
+    margin:auto;
+}
+
+.projectDetailsTitle {
+    font-size: 2.2em ;
+    border-bottom:3px solid;
+    padding-bottom: 2%;
+}
+
+.projectDetailsImage {
+    height:40%;
+    width:45%;
+    border-radius: 2em;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+
+.technologyListItem {
+    padding-bottom:0px;
+    margin-top:-1.1em;
+}
