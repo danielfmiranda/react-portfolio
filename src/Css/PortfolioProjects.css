@@ -19,17 +19,18 @@
 
 .portfolioProjectsContainer {
     height: 100%;
+    margin: auto;
     justify-content: center;
     width: 100%;
-    transition-duration: 2s;
-    padding:4.5vh;
-
+    padding: 1em 12.5em 0em 12.5em;
+    transition-duration: 1s;
 }
 
 .projectCell {
     background-color: darkslategrey;
 
     height: 95%;
+    width:100%;
     margin-top: 2%;
     justify-content: center;
     color: white;
@@ -56,8 +57,7 @@
 
 .projectCell {
     opacity: 1;
-    transition-duration: 2s;
-
+    transition-duration: 1s;
     overflow: hidden !important;
 
 }
@@ -66,12 +66,13 @@
 
 .portfolioInactive{
     margin-right:-100%;
-    transition-duration: 2s;
+    transition-duration: 1s;
     opacity:0.3;
 }
 
 
 .projectCell img {
+    width:100%;
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
@@ -96,7 +97,7 @@
 }
 
 .text:hover {
-    opacity: 0.7;
+    opacity: 0.95;
 
     transition-duration: .3s;
     -webkit-animation-duration: .3s;

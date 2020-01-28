@@ -2,15 +2,16 @@
     height:100%;
     width:100%;
     justify-content: center;
-    transition-duration: 2s;
     opacity: 1;
+    transition-duration: 1s;
 }
 
 .aboutMeInactive {
         height:100%;
     margin-left:-100%;
+    width:100%;
     opacity: 0.0;
-    transition-duration: 2s;
+    transition-duration: 1s;
 }
 
 .aboutMeHeading{

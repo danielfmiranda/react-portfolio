@@ -11,33 +11,32 @@ class PortfolioProjects extends Component {
         return (
             <div className={'portfolioProjectsContainer' + ' ' + `${this.props.showPortfolio ? ('portfolioActive') : ( 'portfolioInactive' )}` }>
                 <div className={'portfolioRow'}>
-                    <div className={'col-4 red '}>
-                          <Card onClick={() => this.props.clickProjectDetails(1)} className={'projectCell project1'}>
-                              <div className={'text'}>
-                            <h1 className={'projectTitle'}> Project 1 </h1>
-                              </div>
-                        </Card>
-                    </div>
-                    <div className={'col-4 yellow '}>
-              <Card onClick={() => this.props.clickProjectDetails(2)}
-                  className={'projectCell project2 '}>
-                              <div className={'text'}>
-                            <h1 className={'projectTitle'}> Project 2 </h1>
-                              </div>
-                        </Card>
-                    </div>
-                    <div className={'col-4 green '}>
-                      <Card  onClick={() => this.props.clickProjectDetails(3)}
+              {/*      <div className={'col-4 red '}>*/}
+              {/*            <Card onClick={() => this.props.clickProjectDetails(1)} className={'projectCell project1'}>*/}
+              {/*                <div className={'text'}>*/}
+              {/*              <h1 className={'projectTitle'}> Project 1 </h1>*/}
+              {/*                </div>*/}
+              {/*          </Card>*/}
+              {/*      </div>*/}
+              {/*      <div className={'col-4 yellow '}>*/}
+              {/*<Card onClick={() => this.props.clickProjectDetails(2)}*/}
+              {/*    className={'projectCell project2 '}>*/}
+              {/*                <div className={'text'}>*/}
+              {/*              <h1 className={'projectTitle'}> Project 2 </h1>*/}
+              {/*                </div>*/}
+              {/*          </Card>*/}
+              {/*      </div>*/}
+                    <div className={'col-6 green '}>
+                      <Card
+                          onClick={this.props.overLayTest}
+                          // onClick={() => this.props.clickProjectDetails(3)}
                           className={'projectCell project3'}>
                               <div className={'text'}>
                             <h1 className={'projectTitle'}> Refillr </h1>
                               </div>
                         </Card>
                     </div>
-
-                </div>
-                <div className={'portfolioRow'}>
-                    <div className={'col-4 red '}>
+                      <div className={'col-6 red '}>
                            <Card
                                onClick={() => this.props.clickProjectDetails(4)}
                                className={'projectCell project4'}>
@@ -46,7 +45,11 @@ class PortfolioProjects extends Component {
                               </div>
                         </Card>
                     </div>
-                    <div className={'col-4 yellow '}>
+
+                </div>
+                <div className={'portfolioRow'}>
+
+                    <div className={'col-6 yellow '}>
                           <Card onClick={() => this.props.clickProjectDetails(5)}
                               className={'projectCell project5'}>
                               <div className={'text'}>
@@ -54,7 +57,7 @@ class PortfolioProjects extends Component {
                               </div>
                         </Card>
                     </div>
-                    <div className={'col-4 green '}>
+                    <div className={'col-6 green '}>
                      <Card onClick={() => this.props.clickProjectDetails(6)}
                          className={'projectCell project6'}>
                               <div className={'text'}>

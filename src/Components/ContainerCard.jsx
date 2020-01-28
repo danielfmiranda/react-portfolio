@@ -21,6 +21,7 @@ class ContainerCard extends Component {
             showAboutMe: true,
             showPortfolio: false,
             showProject: false,
+            overLayActive:false
         };
     }
 
@@ -58,6 +59,18 @@ class ContainerCard extends Component {
         })
     }
 
+    overLayTest = () => {
+        this.setState( {
+            overLayActive:true
+        })
+    };
+
+    overLayClose = () => {
+        this.setState( {
+            overLayActive:false
+        })
+    };
+
 
     render() {
         return (
@@ -75,6 +88,9 @@ class ContainerCard extends Component {
                 </div>
                 <div className={'contentContainer'}>
                     <ContentContainer
+                        overLayActive={this.state.overLayActive}
+                        overLayClose={this.overLayClose}
+                        overLayTest={this.overLayTest}
                         contentShown={this.state.contentShown}
                         showPortfolio={this.state.showPortfolio}
                         clickPortfolioButton={this.clickPortfolioButton}
