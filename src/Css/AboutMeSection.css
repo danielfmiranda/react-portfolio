@@ -1,35 +1,35 @@
 .aboutMeContainer {
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
     justify-content: center;
     opacity: 1;
     transition-duration: 1s;
+
 }
 
 .aboutMeInactive {
-        height:100%;
-    margin-left:-100%;
-    width:100%;
+    height: 100%;
+    margin-left: -100%;
     opacity: 0.0;
     transition-duration: 1s;
 }
 
-.aboutMeHeading{
+.aboutMeHeading {
 
 }
 
-.aboutMeTextContainer{
-padding-top: 14vh;
+.aboutMeTextContainer {
+    padding-top: 14vh;
     text-align: center;
-    width:60%;
+    width: 60%;
     margin: auto;
 }
 
-.aboutMeTextContainer h1{
+.aboutMeTextContainer h1 {
 }
 
-.viewPortfolioButton{
-    margin-top:3vh;
+.viewPortfolioButton {
+    margin-top: 3vh;
     /*color:#080752 !important;*/
     /*border-color:#080752 !important;*/
 }

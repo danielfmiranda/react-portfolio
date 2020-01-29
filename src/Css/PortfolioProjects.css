@@ -19,18 +19,17 @@
 
 .portfolioProjectsContainer {
     height: 100%;
-    margin: auto;
+    width:80vw;
     justify-content: center;
-    width: 100%;
     padding: 1em 12.5em 0em 12.5em;
     transition-duration: 1s;
+
 }
 
 .projectCell {
     background-color: darkslategrey;
 
     height: 95%;
-    width:100%;
     margin-top: 2%;
     justify-content: center;
     color: white;
@@ -57,7 +56,6 @@
 
 .projectCell {
     opacity: 1;
-    transition-duration: 1s;
     overflow: hidden !important;
 
 }
@@ -66,14 +64,17 @@
 
 .portfolioInactive{
     margin-right:-100%;
-    transition-duration: 1s;
     opacity:0.3;
+    height: 100%;
+    width:100%;
+    justify-content: center;
+    padding: 1em 12.5em 0em 12.5em;
+    transition-duration: 1s;
 }
 
 
 .projectCell img {
     width:100%;
-    max-width: 100%;
     max-height: 100%;
     object-fit: cover;
     border: none;
