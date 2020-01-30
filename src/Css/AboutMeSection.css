@@ -19,13 +19,15 @@
 }
 
 .aboutMeTextContainer {
-    padding-top: 14vh;
+    padding-top:10%;
     text-align: center;
     width: 60%;
     margin: auto;
 }
 
 .aboutMeTextContainer h1 {
+    padding-bottom: 2vh;
+    font-size: 3.1em;
 }
 
 .viewPortfolioButton {

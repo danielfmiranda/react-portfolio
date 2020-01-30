@@ -1,17 +1,17 @@
 .navigationHeader {
-    /*border:1px solid red;*/
-    height: 10vh;
+    height: 10%;
     width: 100%;
+    margin: auto;
     display: inline-flex;
     background: transparent;
-    padding:2.5vh;
 }
 
 .navigationTitle {
     display: inline-flex;
     text-align: left;
-    margin-top: 1%;
+    padding-left:4%;
 }
+
 
 .navigationClearSpaceAndLinks {
     display: inline-flex;
@@ -19,10 +19,14 @@
 
 .navigationLinks {
     display: inline-flex;
+    padding-left:10%;
+
 }
 
 .navigationLink {
-    padding: 10px;
+    padding-top:2%;
+    padding-left: 10px;
+
 }
 
 .navigationLink:hover {

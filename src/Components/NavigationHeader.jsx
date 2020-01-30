@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import '../Css/NavigationHeader.css'
 
 class NavigationHeader extends Component {
@@ -14,7 +13,7 @@ class NavigationHeader extends Component {
 
                     </div>
                     <div className={'col-4 navigationLinks'}>
-                        <h5  onClick={this.props.clickAboutMeButton} className={'navigationLink' + ' ' + `${this.props.showAboutMe ? ('active') : ( null )}` }> About </h5>
+                        <h5  onClick={this.props.clickAboutMeButton} className={'navigationLink ' + `${this.props.showAboutMe ? ('active') : null }` }> About </h5>
                         <h5  onClick={this.props.clickPortfolioButton}  className={'navigationLink' + ' ' + `${this.props.showPortfolio ? ('active') : ( null )}` }> Portfolio</h5>
                     </div>
 

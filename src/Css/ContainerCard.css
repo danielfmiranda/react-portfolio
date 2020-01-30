@@ -1,8 +1,17 @@
-.containerCard {
-  height:85vh;
-  width:80vw;
-  border-radius: 1em !important;
+/*.containerCard {*/
+/*  height:85vh;*/
+/*  width:80vw;*/
+/*  border-radius: 1em !important;*/
+/*}*/
+
+
+
+.socialIconButtons {
+      margin-top: 1.1em !important;
+    margin-bottom: -1em !important;
+
 }
 
-
-
+.socialIconButtons a {
+  color: powderblue !important;
+}

@@ -3,12 +3,10 @@ import PropTypes from 'prop-types';
 import Card from 'react-bootstrap/Card';
 import NavigationHeader from './NavigationHeader';
 import ContentContainer from './ContentContainer';
-import Project1Details from './ProjectDetailModals/Project1Details';
-import Project2Details from './ProjectDetailModals/Project2Details';
-import Project3Details from './ProjectDetailModals/Project3Details';
-import Project4Details from './ProjectDetailModals/Project4Details';
-import Project5Details from './ProjectDetailModals/Project5Details';
-import Project6Details from './ProjectDetailModals/Project6Details';
+import '../Css/ContainerCard.css'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faGithubSquare, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import {faEnvelopeSquare} from '@fortawesome/free-solid-svg-icons';
 
 
 class ContainerCard extends Component {
@@ -74,6 +72,8 @@ class ContainerCard extends Component {
 
     render() {
         return (
+
+            <div>
             <Card className={'cardContainer'}>
                 <div className={'navigationHeader'}>
                     <NavigationHeader
@@ -100,38 +100,22 @@ class ContainerCard extends Component {
                         showAboutMe={this.state.showAboutMe}
 
                     />
-                    <Project1Details
-                        activeProject={this.state.activeProject}
-                        showProjectDetails={this.state.showProjectDetails}
-                        closeProjectDetails={this.closeProjectDetails}
-                    />
-                    <Project2Details
-                        activeProject={this.state.activeProject}
-                        showProjectDetails={this.state.showProjectDetails}
-                        closeProjectDetails={this.closeProjectDetails}
-                    />
-                    <Project3Details
-                        activeProject={this.state.activeProject}
-                        showProjectDetails={this.state.showProjectDetails}
-                        closeProjectDetails={this.closeProjectDetails}
-                    />
-                    <Project4Details
-                        activeProject={this.state.activeProject}
-                        showProjectDetails={this.state.showProjectDetails}
-                        closeProjectDetails={this.closeProjectDetails}
-                    />
-                    <Project5Details
-                        activeProject={this.state.activeProject}
-                        showProjectDetails={this.state.showProjectDetails}
-                        closeProjectDetails={this.closeProjectDetails}
-                    />
-                    <Project6Details
-                        activeProject={this.state.activeProject}
-                        showProjectDetails={this.state.showProjectDetails}
-                        closeProjectDetails={this.closeProjectDetails}
-                    />
                 </div>
             </Card>
+                             <div className={'socialIconButtons'}>
+                            <a href={'https://github.com/manieldiranda'}>
+                                <FontAwesomeIcon className={'socialIcon'} icon={faGithubSquare}/>
+                            </a>
+                            <a href={'https://www.linkedin.com/in/daniel-f-miranda/'}>
+                                <FontAwesomeIcon className={'socialIcon'} icon={faLinkedin}/>
+                            </a>
+                            <a href={'mailto:manieldiranda@gmail.com'}>
+                                <FontAwesomeIcon className={'socialIcon'} icon={faEnvelopeSquare}/>
+                            </a>
+                        </div>
+
+            </div>
+
         );
     }
 }

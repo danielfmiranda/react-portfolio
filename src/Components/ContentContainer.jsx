@@ -1,15 +1,14 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import '../Css/ContentContainer.css';
 import PortfolioProjects from './PortfolioProjects';
 import AboutMeSection from './AboutMeSection';
-import NavigationHeader from './NavigationHeader';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faGithubSquare, faLinkedin} from '@fortawesome/free-brands-svg-icons'
-import {faEnvelopeSquare} from '@fortawesome/free-solid-svg-icons'
-
-import Project1Details from './ProjectDetailModals/Project1Details';
 import image1 from '../portfolioTestPictures/refillrTestPhoto.png';
+import {Button} from 'react-bootstrap';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faGithub} from '@fortawesome/free-brands-svg-icons';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+
 
 
 class ContentContainer extends Component {
@@ -35,22 +34,6 @@ class ContentContainer extends Component {
                     />
 
                 </div>
-                <div className={'socialLinks'}>
-                    <div className={'iconContainer'}>
-                        <a href={'https://github.com/manieldiranda'}>
-                            <FontAwesomeIcon className={'socialIcon'} icon={faGithubSquare}/>
-                        </a>
-                        <a href={'https://www.linkedin.com/in/daniel-f-miranda/'}>
-                            <FontAwesomeIcon className={'socialIcon'} icon={faLinkedin}/>
-                        </a>
-                        <a href={'mailto:manieldiranda@gmail.com'}>
-                            <FontAwesomeIcon className={'socialIcon'} icon={faEnvelopeSquare}/>
-                        </a>
-                    </div>
-
-
-                </div>
-
                 <div
                     className={'projectDetailsOverlay' + ' ' + `${this.props.overLayActive ? ('projectDetailsOverlayActive') : ('')}`}>
                     <div className={'projectDetailsOverlayContentContainer'}>
@@ -66,27 +49,26 @@ class ContentContainer extends Component {
                                         when an unknown printer took a galley of type and scrambled it to make a type
                                         specimen book.
                                     </p>
-                                    <div>
-                                        <button onClick={this.props.overLayClose}> GitHub</button>
-                                    </div>
-                                    <div>
-                                        <button onClick={this.props.overLayClose}> CLOSE</button>
+                                    <div className={'projectButtonsContainer'}>
+                                        <div>
+                                            <Button className={'projectLinkButton'} onClick={this.props.overLayClose} variant="light">
+                                                <FontAwesomeIcon  icon={faGithub}/>
+                                                  GitHub
+                                            </Button>
+
+                                            <Button  className={'projectLinkButton'} onClick={this.props.overLayClose} variant="primary">
+                                                 <FontAwesomeIcon  icon={faExternalLinkAlt}/>
+                                                Project
+                                            </Button>
+
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
 
                         </div>
-                        <div className={'iconContainer'}>
-                            <a href={'https://github.com/manieldiranda'}>
-                                <FontAwesomeIcon className={'socialIcon'} icon={faGithubSquare}/>
-                            </a>
-                            <a href={'https://www.linkedin.com/in/daniel-f-miranda/'}>
-                                <FontAwesomeIcon className={'socialIcon'} icon={faLinkedin}/>
-                            </a>
-                            <a href={'mailto:manieldiranda@gmail.com'}>
-                                <FontAwesomeIcon className={'socialIcon'} icon={faEnvelopeSquare}/>
-                            </a>
-                        </div>
+
                     </div>
                 </div>
             </div>
