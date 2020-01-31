@@ -5,7 +5,7 @@ class NavigationHeader extends Component {
     render() {
         return (
             <div className={'navigationHeader'}>
-                <div className={'col-4 navigationTitle'}>
+                <div  onClick={this.props.clickAboutMeButton} className={'col-4 navigationTitle'}>
                     <p style={{fontSize:"2em", marginRight:"5px",marginTop:"-9px"}}>👨‍💻</p>
                     <h3> Daniel Miranda </h3></div>
                 <div className={'col-8 navigationClearSpaceAndLinks'}>

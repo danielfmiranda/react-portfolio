@@ -44,28 +44,31 @@ class ContainerCard extends Component {
     }
 
     clickProjectDetails = (projectNumber) => {
+                console.log('portfolio');
+
         console.log(projectNumber);
         this.setState({
-            activeProject: projectNumber
+            overLayActive: projectNumber,
+            showProject:true
         })
     }
 
     closeProjectDetails = () => {
         console.log('projectDivClicked');
         this.setState({
-            activeProject: null
+            showProject: false
         })
     }
 
-    overLayTest = () => {
-        this.setState( {
-            overLayActive:true
-        })
-    };
+    // overLayTest = () => {
+    //     this.setState( {
+    //         overLayActive:true
+    //     })
+    // };
 
     overLayClose = () => {
         this.setState( {
-            overLayActive:false
+            showProject:false
         })
     };
 
@@ -91,6 +94,7 @@ class ContainerCard extends Component {
                         overLayActive={this.state.overLayActive}
                         overLayClose={this.overLayClose}
                         overLayTest={this.overLayTest}
+                        showProject={this.state.showProject}
                         contentShown={this.state.contentShown}
                         showPortfolio={this.state.showPortfolio}
                         clickPortfolioButton={this.clickPortfolioButton}
