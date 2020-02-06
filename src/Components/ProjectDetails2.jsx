@@ -22,10 +22,9 @@ class ProjectDetails2 extends Component {
                         <div className={'projectInfo col-6'}>
                             <div className={'projectInfoTextContainer'}>
                                 <h1> Timely </h1>
-                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
+                                <p> Employee clock in system, keeps track of time clocked in, clocked out, hours worked, and
+                            managers can
+                            see if team members were late or make changes by using administrator panel.
                                 </p>
                                 <div className={'projectButtonsContainer'}>
                                     <div>

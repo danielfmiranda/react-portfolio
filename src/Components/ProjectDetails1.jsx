@@ -24,10 +24,9 @@ class ProjectDetails2 extends Component {
                             <div className={'projectInfoTextContainer'}>
 
                                 <h1> Refillr </h1>
-                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
+                                <p> Locator App showing users the location of water fountains near them to refill their reusable
+                            water bottles. Users can also
+                            add a new location from their phone.
                                 </p>
                                 <div className={'projectButtonsContainer'}>
                                     <div>
