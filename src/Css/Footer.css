@@ -1,0 +1,29 @@
+.footerContainer {
+    background-color: #343a40;
+    padding: 2rem 0 2rem 0;
+}
+
+
+.footerContent {
+    color: white;
+    text-align: center;
+
+}
+
+.footerContent a {
+        color: white;
+    text-align: center;
+}
+
+.socialIcon  {
+    font-size: 2.7rem;
+    margin: .8rem;
+    transition-duration: .3s;
+
+}
+
+.socialIcon:hover  {
+    cursor: pointer;
+    color: #829998;
+    transition-duration: .3s;
+}

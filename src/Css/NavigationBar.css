@@ -1,0 +1,19 @@
+.navLinks {
+    display: inline-flex;
+}
+
+@media(max-width: 750px) {
+    .navLinks{
+        display: none;
+    }
+}
+
+.mr-auto{
+    margin-left:auto !important;
+    margin-right:0 !important;
+
+}
+
+.hamburgerMenuDropDown{
+    text-align: center;
+}

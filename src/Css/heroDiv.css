@@ -1,0 +1,48 @@
+.heroDivContainer {
+    height: 100vh;
+    width:100vw;
+    background-color: #1c1c21;
+
+}
+
+.heroDivContent
+{
+    padding-top: 5rem;
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+
+.contentText {
+    padding:3%;
+}
+
+.contentText p{
+    font-size: 1rem;
+}
+
+.contentText h1{
+    font-size: 4rem;
+}
+
+
+.seeMyWorkButton{
+    margin:auto;
+}
+
+.heroSocialIcon{
+    font-size: 1rem;
+}
+
+@media(min-width:700px){
+    .heroDivContent{
+        text-align: center;
+        width:70%;
+        margin: auto;
+
+
+    }
+
+
+}
