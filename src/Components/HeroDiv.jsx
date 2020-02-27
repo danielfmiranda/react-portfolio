@@ -6,6 +6,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithubSquare} from "@fortawesome/free-brands-svg-icons/faGithubSquare";
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons/faLinkedin";
 import {faEnvelopeSquare} from "@fortawesome/free-solid-svg-icons";
+import Particles from 'react-particles-js';
 
 
 class HeroDiv extends Component {
@@ -19,9 +20,14 @@ class HeroDiv extends Component {
     render() {
         return (
             <div>
+
                 <div className={'heroDivContainer'} id={'#heroDiv'}>
+
                     <div className={'heroDivContent'}>
+
+
                         <div className={'contentText'}>
+
                             <h1> Hi, I'm Daniel </h1>
                             <h5> I am a full stack web developer based out of the East Bay Area.
                             </h5>
@@ -43,7 +49,37 @@ class HeroDiv extends Component {
 
                         </div>
                     </div>
+                    <Particles
+                        canvasClassName={'particles'}
+                        params={{
+                            "particles": {
+                                "number": {
+                                    "value": 50
+                                },
+                                "size": {
+                                    "value": 3
+                                }
+                            },
+                            "interactivity": {
+                                "events": {
+                                    "onhover": {
+                                        "enable": true,
+                                        "mode": "repulse"
+                                    }
+                                }
+                            }
+                        }}
+
+
+
+
+
+
+                    />
+
                 </div>
+
+
             </div>
         );
     }

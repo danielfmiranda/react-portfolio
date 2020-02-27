@@ -1,48 +1,64 @@
 .heroDivContainer {
     height: 100vh;
-    width:100vw;
+    width: 100vw;
     background-color: #1c1c21;
 
 }
 
-.heroDivContent
-{
-    padding-top: 5rem;
-    width: 90%;
-    margin: auto;
+.heroDivContent {
+        position: absolute;
+        width:90%;
+        left:5%;
+        top: 11%;
     color: white;
 }
 
 
 .contentText {
-    padding:3%;
+    padding: 3%;
 }
 
-.contentText p{
+.contentText p {
     font-size: 1rem;
 }
 
-.contentText h1{
+.contentText h1 {
     font-size: 4rem;
 }
 
 
-.seeMyWorkButton{
-    margin:auto;
+.seeMyWorkButton {
+    margin: auto;
 }
 
-.heroSocialIcon{
+.heroSocialIcon {
     font-size: 1rem;
 }
 
-@media(min-width:700px){
-    .heroDivContent{
+@media (min-width: 700px) {
+    .heroDivContent {
+        position: absolute;
+        width:60%;
+        left:20%;
+        top: 25%;
         text-align: center;
-        width:70%;
-        margin: auto;
 
 
     }
 
 
 }
+
+@media (max-width: 700px) {
+
+
+.particles{
+    margin-top:20%;
+    height:1000px !important;
+    width:100% !important;
+}
+
+
+
+}
+
