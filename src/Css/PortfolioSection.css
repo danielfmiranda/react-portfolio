@@ -2,9 +2,12 @@
     padding-top: 2rem;
     text-align: center;
     padding-bottom:3rem;
+    height:100vh;
 }
 
 .portfolioHeading {
+    margin-top:3rem;
+    margin-bottom:3rem;
 }
 
 
@@ -42,4 +45,8 @@
     cursor: pointer;
 }
 
+.portfolioContent{
+    height:100%;
+
+}
 

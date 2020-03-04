@@ -77,50 +77,50 @@ class HeroDiv extends Component {
 
                     />
 
-                    <Particles
-                                                canvasClassName={'particles'}
+    {/*                <Particles*/}
+    {/*                                            canvasClassName={'particles'}*/}
 
-    params={{
-	    "particles": {
-	        "number": {
-	            "value": 100,
-	            "density": {
-	                "enable": false
-	            }
-	        },
-	        "size": {
-	            "value": 3,
-	            "random": true,
-	            "anim": {
-	                "speed": 4,
-	                "size_min": 0.3
-	            }
-	        },
-	        "line_linked": {
-	            "enable": false
-	        },
-	        "move": {
-	            "random": true,
-	            "speed": .3,
-	            "direction": "top",
-	            "out_mode": "out"
-	        }
-	    },
+    {/*params={{*/}
+	{/*    "particles": {*/}
+	{/*        "number": {*/}
+	{/*            "value": 100,*/}
+	{/*            "density": {*/}
+	{/*                "enable": false*/}
+	{/*            }*/}
+	{/*        },*/}
+	{/*        "size": {*/}
+	{/*            "value": 3,*/}
+	{/*            "random": true,*/}
+	{/*            "anim": {*/}
+	{/*                "speed": 4,*/}
+	{/*                "size_min": 0.3*/}
+	{/*            }*/}
+	{/*        },*/}
+	{/*        "line_linked": {*/}
+	{/*            "enable": false*/}
+	{/*        },*/}
+	{/*        "move": {*/}
+	{/*            "random": true,*/}
+	{/*            "speed": .3,*/}
+	{/*            "direction": "top",*/}
+	{/*            "out_mode": "out"*/}
+	{/*        }*/}
+	{/*    },*/}
 
-	        "modes": {
-	            "bubble": {
-	                "distance": 250,
-	                "duration": 2,
-	                "size": 0,
-	                "opacity": 0
-	            },
-	            "repulse": {
-	                "distance": 400,
-	                "duration": 4
-	            }
-	        }
-	    }
-	} />
+	{/*        "modes": {*/}
+	{/*            "bubble": {*/}
+	{/*                "distance": 250,*/}
+	{/*                "duration": 2,*/}
+	{/*                "size": 0,*/}
+	{/*                "opacity": 0*/}
+	{/*            },*/}
+	{/*            "repulse": {*/}
+	{/*                "distance": 400,*/}
+	{/*                "duration": 4*/}
+	{/*            }*/}
+	{/*        }*/}
+	{/*    }*/}
+	{/*} />*/}
 
                 </div>
 
