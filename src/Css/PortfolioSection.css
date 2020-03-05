@@ -2,7 +2,7 @@
     padding-top: 2rem;
     text-align: center;
     padding-bottom:3rem;
-    height:100vh;
+
 }
 
 .portfolioHeading {
@@ -47,6 +47,22 @@
 
 .portfolioContent{
     height:100%;
+
+}
+
+
+
+@media (min-width: 700px) {
+
+
+
+.portfolioContainer {
+ height:100vh;
+}
+
+
+
+
 
 }
 
