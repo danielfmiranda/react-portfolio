@@ -1,20 +1,28 @@
 .portfolioContainer {
     padding-top: 2rem;
     text-align: center;
-    padding-bottom:3rem;
+    padding-bottom: 3rem;
 
 }
 
 .portfolioHeading {
-    margin-top:3rem;
-    margin-bottom:3rem;
+    font-size: 3rem;
+    padding-top:3rem;
+    padding-bottom:2rem;
+    margin-bottom:1rem;
 }
 
 
+.divider {
+    border-bottom:5px solid grey;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
 .responsiveColumn {
     background-color: #2d2d2f;
-        border-radius: 5%;
-    margin:1rem;
+    border-radius: 5%;
+    margin: 1rem;
 
 }
 
@@ -45,23 +53,18 @@
     cursor: pointer;
 }
 
-.portfolioContent{
-    height:100%;
+.portfolioContent {
+    height: 100%;
 
 }
-
 
 
 @media (min-width: 700px) {
 
 
-
-.portfolioContainer {
- height:100vh;
-}
-
-
-
+    .portfolioContainer {
+        height: 100vh;
+    }
 
 
 }
