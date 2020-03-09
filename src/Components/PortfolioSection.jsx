@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import '../Css/PortfolioSection.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -10,25 +9,27 @@ import greendlyImage from '../portfolioTestPictures/greendly.png';
 import socialCompileImage from '../portfolioTestPictures/socialCompile.png';
 
 
+
 class PortfolioSection extends Component {
     render() {
         return (
             <div className={'portfolioContainer'} id={'#portfolio'}>
                 <div className={'portfolioContent'}>
-                    <h1 className={'portfolioHeading'}> MY RECENT WORK </h1>
-                    <div className={'divider'}/>
+                    <h1 className={'portfolioHeading'}> PORTFOLIO </h1>
+                    <div className={'portfolioDivider'}/>
+
                     <Container>
                         <Row>
                             <Col lg={4} md={6}>
                                 <div className={'responsiveColumn'}>
-                                    <div className="container">
+                                    <div className="container" onClick={() => this.props.showProjectModal(1)}>
                                         <img src={portfolioImage2} alt="" className="image"/>
                                     </div>
                                 </div>
                             </Col>
                             <Col lg={4} md={6}>
                                 <div className={'responsiveColumn'}>
-                                    <div className="container">
+                                    <div className="container" onClick={() => this.props.showProjectModal(2)}>
                                         <img src={refillrImage} alt="" className="image"/>
                                     </div>
                                 </div>
@@ -36,7 +37,7 @@ class PortfolioSection extends Component {
                             </Col>
                             <Col lg={4} md={6}>
                                 <div className={'responsiveColumn'}>
-                                    <div className="container">
+                                    <div className="container" onClick={() => this.props.showProjectModal(3)}>
                                         <img src={greendlyImage} alt="" className="image"/>
                                     </div>
                                 </div>
@@ -44,7 +45,7 @@ class PortfolioSection extends Component {
                             </Col>
                             <Col lg={4} md={6}>
                                 <div className={'responsiveColumn'}>
-                                    <div className="container">
+                                    <div className="container" onClick={() => this.props.showProjectModal(4)}>
                                         <img src={socialCompileImage} alt="" className="image"/>
                                     </div>
                                 </div>

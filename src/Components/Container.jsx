@@ -1,20 +1,54 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import NavigationBar from "./NavigationBar";
 import HeroDiv from "./HeroDiv";
 import PortfolioSection from "./PortfolioSection";
 import Footer from './Footer';
-import PortfolioProjectOverlay from './PortfolioProjectOverlay';
+import ProjectModal from './ProjectModal';
+
 
 class Container extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            showModal: false,
+            projectSelected: 1
+
+        };
+    }
+
+    showProjectModal = (projectSelected) => {
+        this.setState({
+            showModal: true,
+            projectSelected: projectSelected
+        })
+    };
+
+    hideProjectModal = (projectSelected) => {
+        this.setState({
+            showModal: false,
+            projectSelected: projectSelected
+
+
+        })
+    };
+
+
     render() {
         return (
             <div>
                 <NavigationBar/>
-                <HeroDiv />
-                <PortfolioSection id={'#portfolio'}/>
+                <HeroDiv/>
+                <PortfolioSection
+                    id={'#portfolio'}
+                    showProjectModal={this.showProjectModal}
+                />
                 <Footer/>
-                {/*<PortfolioProjectOverlay />*/}
+                <ProjectModal
+                    showModal={this.state.showModal}
+                    hideProjectModal={this.hideProjectModal}
+                    projectSelected={this.state.projectSelected}
+
+                />
             </div>
         );
     }
