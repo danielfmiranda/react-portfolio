@@ -16,6 +16,8 @@ class PortfolioSection extends Component {
             <div className={'portfolioContainer'} id={'#portfolio'}>
                 <div className={'portfolioContent'}>
                     <h1 className={'portfolioHeading'}> PORTFOLIO </h1>
+                    <div className={'portfolioDivider'}/>
+
                     <Container>
                         <Row>
                             <Col lg={4} md={6}>

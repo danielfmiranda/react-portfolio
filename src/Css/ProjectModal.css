@@ -1,26 +1,28 @@
-.projectModalRightHalf  {
+.projectModalRightHalf {
     text-align: center;
 }
 
-.projectModalLeftHalf  {
-text-align: center;
+.projectModalLeftHalf {
+    text-align: center;
 }
 
 .closeButtonContainer {
-    width:100%;
+    width: 100%;
     text-align: right;
-    padding-bottom:2.5rem;
+    padding-bottom: 2.5rem;
 
 }
 
 .modalCloseButton {
 }
 
-.projectImage{
-    height:80%;
-    width:80%;
+
+.projectImage {
+    height: 80%;
+    width: 80%;
     margin-bottom: 2rem;
-    box-shadow: #0f6674 -10px 10px;
+    box-shadow: dimgrey -15px 15px;
+    border: 1px solid dimgrey;
     border-radius: 1%;
 }
 
@@ -28,11 +30,40 @@ text-align: center;
     display: inline;
 }
 
-.modalLinkButton{
-    margin:.5rem;
+.modalLinkButton {
+    margin: .5rem;
 }
 
 .modalTextContainer {
-    width:90%;
-    margin:auto;
+    width: 90%;
+    margin: auto;
 }
+
+
+.modalCloseIcon {
+    font-size: 2rem;
+    transition-duration: .3s;
+    cursor: pointer;
+
+}
+
+.modalCloseIcon:hover {
+    color: darkgrey;
+    transition-duration: .3s;
+}
+
+@media (max-width: 750px) {
+    .modal.show .modal-dialog {
+        margin-top: -1.3rem !important;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .modalTextContainer {
+        padding-top: 2rem;
+    }
+}
+
+
+

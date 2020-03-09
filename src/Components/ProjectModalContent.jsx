@@ -12,6 +12,7 @@ import socialCompileImage from "../portfolioTestPictures/socialCompile.png";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
+import {faTimes} from "@fortawesome/free-solid-svg-icons";
 
 class ProjectModalContent extends Component {
     render() {
@@ -21,8 +22,9 @@ class ProjectModalContent extends Component {
                     className={'projectModalBody'}
                 >
                     <div className={'closeButtonContainer'}>
-                        <Button variant="outline-primary" className={'modalCloseButton'}
-                                onClick={this.props.hideProjectModal}>X</Button>
+
+                        <FontAwesomeIcon className={'modalCloseIcon'} icon={faTimes} onClick={this.props.hideProjectModal}/>
+
                     </div>
 
                     <Container>
