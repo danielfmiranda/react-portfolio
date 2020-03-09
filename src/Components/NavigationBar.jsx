@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import icon from '../portfolioTestPictures/icon.png';
-import NavDropdown from "react-bootstrap/NavDropdown";
 import '../Css/NavigationBar.css'
 
 class NavigationBar extends Component {

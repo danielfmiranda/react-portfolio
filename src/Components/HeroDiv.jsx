@@ -1,12 +1,7 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import Button from 'react-bootstrap/Button'
 import '../Css/heroDiv.css';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faGithubSquare} from "@fortawesome/free-brands-svg-icons/faGithubSquare";
-import {faLinkedin} from "@fortawesome/free-brands-svg-icons/faLinkedin";
-import {faEnvelopeSquare} from "@fortawesome/free-solid-svg-icons";
-import Particles from 'react-particles-js';
+
 
 
 class HeroDiv extends Component {
