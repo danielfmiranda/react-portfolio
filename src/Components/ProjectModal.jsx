@@ -23,7 +23,13 @@ class ProjectModal extends Component {
                 return <ProjectModalContent
                     hideProjectModal={this.props.hideProjectModal}
                     projectName={'Timely'}
-                    projectDescription={'Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.'}
+                    projectDescription={'Employee time management app that gives users ability to clock in and out, and managers the ability to view their teams clock ins, and edit/delete entries.'}
+                    technologiesUsed={
+                        <div className={'technologiesUsed'}>
+                            <li> React </li>
+                            <li> Django/REST</li>
+                        </div>
+                    }
                     projectImage={portfolioImage2}
                     projectLink={'comingSoon'}
                     projectLinkName={'Live Demo'}
@@ -35,7 +41,13 @@ class ProjectModal extends Component {
                 return <ProjectModalContent
                     hideProjectModal={this.props.hideProjectModal}
                     projectName={'Refillr'}
-                    projectDescription={'Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.'}
+                    projectDescription={'Application to help users find and add water bottle refill stations with an interactive google map.'}
+                    technologiesUsed={
+                        <div className={'technologiesUsed'}>
+                            <li> React</li>
+                            <li> Django/REST</li>
+                        </div>
+                    }
                     projectImage={refillrImage}
                     projectLink={'comingSoon'}
                     projectLinkName={'Live Demo'}
@@ -47,7 +59,14 @@ class ProjectModal extends Component {
                 return <ProjectModalContent
                     hideProjectModal={this.props.hideProjectModal}
                     projectName={'Greendly'}
-                    projectDescription={'Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.'}
+                    projectDescription={'Online shop for Greendly, a brand that sells zero waste products.'}
+                    technologiesUsed={
+                        <div className={'technologiesUsed'}>
+                            <li> Shopify</li>
+                            <li> HTML</li>
+                            <li> CSS</li>
+                        </div>
+                    }
                     projectImage={greendlyImage}
                     projectLink={'http://www.greendly.co'}
                     projectLinkName={'greendly.co'}
@@ -59,7 +78,14 @@ class ProjectModal extends Component {
                 return <ProjectModalContent
                     hideProjectModal={this.props.hideProjectModal}
                     projectName={'SocialCompile'}
-                    projectDescription={'Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.'}
+                    projectDescription={'Landing site for Social Compile, a upcoming platform to bring together travel influencers and advertisers in one of the fastest growing social media niches.'}
+                    technologiesUsed={
+                        <div className={'technologiesUsed'}>
+                            <li> Wordpress</li>
+                            <li> HTML</li>
+                            <li> CSS</li>
+                        </div>
+                    }
                     projectImage={socialCompileImage}
                     projectLink={'http://socialcompile.com'}
                     projectLinkName={'SocialCompile.com'}

@@ -44,6 +44,9 @@ class ProjectModalContent extends Component {
                                         <p>
                                             {this.props.projectDescription}
                                         </p>
+
+                                        <p className={'technologiesUsedHeader'}> <b>  Technologies used include: </b></p>
+                                        {this.props.technologiesUsed}
                                     </div>
                                     <div className={'modalLinkButtonsContainer'}>
                                         <a href={this.props.projectLink}>
