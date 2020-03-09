@@ -56,7 +56,7 @@ class ProjectModalContent extends Component {
                                                 onClick={this.props.hideProjectModal}
                                             >
                                                 {this.props.projectLinkName}
-                                                <FontAwesomeIcon icon={faExternalLinkAlt}/>
+                                                <FontAwesomeIcon  className={'buttonIcon'}icon={faExternalLinkAlt}/>
 
 
                                             </Button>
@@ -70,7 +70,10 @@ class ProjectModalContent extends Component {
                                                     variant="primary"
                                                     onClick={this.props.hideProjectModal}>
 
-                                                    GitHub <FontAwesomeIcon icon={faGithub}/>
+                                                    GitHub <FontAwesomeIcon
+                                                    // className={'buttonIcon'}
+
+                                                    icon={faGithub}/>
 
                                                 </Button>
                                             </a>

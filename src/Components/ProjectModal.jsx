@@ -59,7 +59,7 @@ class ProjectModal extends Component {
                 return <ProjectModalContent
                     hideProjectModal={this.props.hideProjectModal}
                     projectName={'Greendly'}
-                    projectDescription={'Online shop for Greendly, a brand that sells zero waste products.'}
+                    projectDescription={'Online shop for Greendly, a brand that sells high quality, affordable, zero waste products.'}
                     technologiesUsed={
                         <div className={'technologiesUsed'}>
                             <li> Shopify</li>

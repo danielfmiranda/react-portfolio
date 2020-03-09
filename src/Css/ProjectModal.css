@@ -60,6 +60,10 @@
     transition-duration: .3s;
 }
 
+.buttonIcon{
+    margin-left:5px;
+}
+
 @media (max-width: 750px) {
     .modal.show .modal-dialog {
         margin-top: -1.3rem !important;
