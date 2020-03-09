@@ -20,14 +20,14 @@ class PortfolioSection extends Component {
                         <Row>
                             <Col lg={4} md={6}>
                                 <div className={'responsiveColumn'}>
-                                    <div className="container" onClick={this.props.showProjectModal}>
+                                    <div className="container" onClick={() => this.props.showProjectModal(1)}>
                                         <img src={portfolioImage2} alt="" className="image"/>
                                     </div>
                                 </div>
                             </Col>
                             <Col lg={4} md={6}>
                                 <div className={'responsiveColumn'}>
-                                    <div className="container" onClick={this.props.showProjectModal}>
+                                    <div className="container" onClick={() => this.props.showProjectModal(2)}>
                                         <img src={refillrImage} alt="" className="image"/>
                                     </div>
                                 </div>
@@ -35,7 +35,7 @@ class PortfolioSection extends Component {
                             </Col>
                             <Col lg={4} md={6}>
                                 <div className={'responsiveColumn'}>
-                                    <div className="container" onClick={this.props.showProjectModal}>
+                                    <div className="container" onClick={() => this.props.showProjectModal(3)}>
                                         <img src={greendlyImage} alt="" className="image"/>
                                     </div>
                                 </div>
@@ -43,7 +43,7 @@ class PortfolioSection extends Component {
                             </Col>
                             <Col lg={4} md={6}>
                                 <div className={'responsiveColumn'}>
-                                    <div className="container" onClick={this.props.showProjectModal}>
+                                    <div className="container" onClick={() => this.props.showProjectModal(4)}>
                                         <img src={socialCompileImage} alt="" className="image"/>
                                     </div>
                                 </div>

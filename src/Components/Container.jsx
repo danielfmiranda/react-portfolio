@@ -10,22 +10,27 @@ class Container extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            showModal: false
+            showModal: false,
+            projectSelected: 1
 
         };
     }
 
-    showProjectModal = () => {
+    showProjectModal = (projectSelected) => {
         this.setState({
-            showModal: true
+            showModal: true,
+            projectSelected: projectSelected
         })
     };
 
-    hideProjectModal = () => {
+    hideProjectModal = (projectSelected) => {
         this.setState({
-            showModal: false
+            showModal: false,
+            projectSelected: projectSelected
+
+
         })
-    }
+    };
 
 
     render() {
@@ -41,6 +46,7 @@ class Container extends Component {
                 <ProjectModal
                     showModal={this.state.showModal}
                     hideProjectModal={this.hideProjectModal}
+                    projectSelected={this.state.projectSelected}
 
                 />
             </div>

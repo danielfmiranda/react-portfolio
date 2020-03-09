@@ -12,9 +12,70 @@ import socialCompileImage from "../portfolioTestPictures/socialCompile.png";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
+import ProjectModalContent from "./ProjectModalContent";
 
 class ProjectModal extends Component {
+
+
+    projectContentSwitch(param) {
+        switch (param) {
+            case 1:
+                return <ProjectModalContent
+                    hideProjectModal={this.props.hideProjectModal}
+                    projectName={'Timely'}
+                    projectDescription={'Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.'}
+                    projectImage={portfolioImage2}
+                    projectLink={'comingSoon'}
+                    projectLinkName={'Live Demo'}
+                    gitHubLink={'https://github.com/manieldiranda/timely'}
+
+
+                />;
+            case 2:
+                return <ProjectModalContent
+                    hideProjectModal={this.props.hideProjectModal}
+                    projectName={'Refillr'}
+                    projectDescription={'Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.'}
+                    projectImage={refillrImage}
+                    projectLink={'comingSoon'}
+                    projectLinkName={'Live Demo'}
+                    gitHubLink={'https://github.com/manieldiranda/refillr'}
+
+
+                />;
+            case 3:
+                return <ProjectModalContent
+                    hideProjectModal={this.props.hideProjectModal}
+                    projectName={'Greendly'}
+                    projectDescription={'Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.'}
+                    projectImage={greendlyImage}
+                    projectLink={'http://www.greendly.co'}
+                    projectLinkName={'greendly.co'}
+                    gitHubLink={null}
+
+
+                />;
+            case 4:
+                return <ProjectModalContent
+                    hideProjectModal={this.props.hideProjectModal}
+                    projectName={'SocialCompile'}
+                    projectDescription={'Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.'}
+                    projectImage={socialCompileImage}
+                    projectLink={'http://socialcompile.com'}
+                    projectLinkName={'SocialCompile.com'}
+                    gitHubLink={null}
+
+
+                />;
+            default:
+                return null;
+        }
+    }
+
+
     render() {
+
+
         return (
             <div>
                 <Modal
@@ -22,61 +83,9 @@ class ProjectModal extends Component {
                     centered
                     show={this.props.showModal}
                 >
-                    <Modal.Body
-                        className={'projectModalBody'}
-                    >
-                        <div className={'closeButtonContainer'}>
-                            <Button variant="outline-primary" className={'modalCloseButton'}
-                                    onClick={this.props.hideProjectModal}>X</Button>
-                        </div>
 
-                        <Container>
-                            <Row>
-                                <Col lg={6}>
-                                    <div className={'projectModalLeftHalf'}>
+                    {this.projectContentSwitch(this.props.projectSelected)}
 
-                                        <img src={socialCompileImage} alt="" className="projectImage"/>
-
-
-                                    </div>
-                                </Col>
-                                <Col lg={6}>
-                                    <div className={'projectModalRightHalf'}>
-                                        <div className={'modalTextContainer'}>
-                                        <h1>Project Title</h1>
-                                        <p>
-                                            Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-                                            dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-                                            consectetur ac, vestibulum at eros.
-                                        </p>
-                                        </div>
-                                        <div className={'modalLinkButtonsContainer'}>
-                                            <Button
-                                                className={'modalLinkButton'}
-                                                variant="primary" onClick={this.props.hideProjectModal}>
-                                                Live Demo   <FontAwesomeIcon icon={faExternalLinkAlt}/>
-
-
-                                            </Button>
-                                            <Button
-                                                className={'modalLinkButton'}
-                                                variant="primary"
-                                                    onClick={this.props.hideProjectModal}>
-
-                                                GitHub   <FontAwesomeIcon icon={faGithub}/>
-
-                                            </Button>
-                                        </div>
-
-                                    </div>
-
-                                </Col>
-
-
-                            </Row>
-                        </Container>
-
-                    </Modal.Body>
 
                 </Modal>
 
