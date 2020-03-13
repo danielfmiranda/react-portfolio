@@ -66,6 +66,14 @@
     .modal.show .modal-dialog {
         margin-top: -1.3rem !important;
     }
+
+
+.projectImage {
+    height: 100%;
+
+    width: 100%;
+
+}
 }
 
 @media (min-width: 1200px) {

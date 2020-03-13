@@ -66,12 +66,12 @@
         background-color: #2d2d2f;
         border-radius: 1%;
         margin: 2rem;
-        width: 90%;
-        left: -3.5%;
+        width: 100%;
+        left: -7%;
     }
 
     .portfolioPhotoContainer {
-        max-width: 95% !important;
+        max-width: 98% !important;
     }
 
 }
