@@ -1,5 +1,5 @@
 .portfolioContainer {
-    padding-top: 2rem;
+    padding-top: 4rem;
     text-align: center;
     padding-bottom:6rem;
 
@@ -74,5 +74,5 @@ left:-1%;
 }
 
 .portfolioPhotoContainer {
-    max-width: 85% !important;
+    max-width: 75% !important;
 }
