@@ -67,9 +67,12 @@
         border-radius: 1%;
     margin:2rem;
     width:90%;
-left:-4%;
+left:-3%;
 }
 
+.portfolioPhotoContainer {
+    max-width: 95% !important;
+}
 
 }
 
