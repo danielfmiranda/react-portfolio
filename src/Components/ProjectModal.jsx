@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import '../Css/ProjectModal.css'
-import portfolioImage2 from "../portfolioTestPictures/timelyCover.jpeg";
+import portfolioImage2 from "../portfolioTestPictures/timelyDesktop.png";
 import refillrImage from "../portfolioTestPictures/refillrDesktop.PNG";
 import greendlyImage from "../portfolioTestPictures/greendlyDesktop.PNG";
 import socialCompileImage from "../portfolioTestPictures/socialCompileDesktop.png";
