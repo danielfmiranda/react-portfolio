@@ -65,17 +65,21 @@
         position: relative;
         background-color: #2d2d2f;
         border-radius: 1%;
-        margin: 2rem;
-        width: 100%;
-        left: -7%;
+        margin-top: 2rem;
+        margin-bottom:2rem;
+        width: 90%;
+        left: -1%;
     }
 
-    .portfolioPhotoContainer {
-        max-width: 98% !important;
-    }
 
 }
 
-.portfolioPhotoContainer {
+
+
+@media (min-width: 750px) {
+
+.modal-dialog {
     max-width: 80% !important;
+}
+
 }

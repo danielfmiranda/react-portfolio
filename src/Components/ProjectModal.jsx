@@ -26,7 +26,7 @@ class ProjectModal extends Component {
                     projectDescription={'Employee time management app that gives users ability to clock in and out, and managers the ability to view their teams clock ins, and edit/delete entries.'}
                     technologiesUsed={
                         <div className={'technologiesUsed'}>
-                            <li> React </li>
+                            <li> React</li>
                             <li> Django/REST</li>
                         </div>
                     }
@@ -105,7 +105,10 @@ class ProjectModal extends Component {
         return (
             <div>
                 <Modal
-                    size="xl"
+        dialogClassName="modal-90w"
+                            aria-labelledby="example-custom-modal-styling-title"
+
+
                     centered
                     show={this.props.showModal}
                 >

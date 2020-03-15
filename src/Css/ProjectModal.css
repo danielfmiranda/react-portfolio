@@ -18,8 +18,8 @@
 
 
 .projectImage {
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     margin-bottom: 2rem;
     border-radius: 1%;
 }
@@ -84,4 +84,7 @@
 }
 
 
+.modal-90w {
+    width:80% !important;
+}
 
