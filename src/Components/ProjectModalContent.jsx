@@ -29,7 +29,7 @@ class ProjectModalContent extends Component {
 
                     <Container>
                         <Row>
-                            <Col lg={6}>
+                            <Col>
                                 <div className={'projectModalLeftHalf'}>
 
                                     <img src={this.props.projectImage} alt="" className="projectImage"/>
@@ -37,10 +37,13 @@ class ProjectModalContent extends Component {
 
                                 </div>
                             </Col>
-                            <Col lg={6}>
+                        </Row>
+                        <Row>
+                            <Col >
                                 <div className={'projectModalRightHalf'}>
                                     <div className={'modalTextContainer'}>
                                         <h1>{this.props.projectName} </h1>
+                                        <div className={'divider'}/>
                                         <p>
                                             {this.props.projectDescription}
                                         </p>
