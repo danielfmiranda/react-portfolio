@@ -1,5 +1,15 @@
 .projectModalRightHalf {
     text-align: center;
+        padding-bottom: 2rem;
+
+}
+
+.projectModalRightHalf:hover {
+cursor: default;
+}
+
+.projectModalLeftHalf:hover {
+cursor: default;
 }
 
 .projectModalLeftHalf {
@@ -9,7 +19,7 @@
 .closeButtonContainer {
     width: 100%;
     text-align: right;
-    padding-bottom: 2.5rem;
+    padding-bottom: 2rem;
 
 }
 
