@@ -73,6 +73,10 @@ max-width:600px;
     .modal.show .modal-dialog {
         /*margin-top: -1.3rem !important;*/
     }
+.modalTextContainer {
+    width: 85%;
+    margin: auto;
+}
 
 
 .projectImage {
