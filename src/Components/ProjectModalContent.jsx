@@ -23,7 +23,8 @@ class ProjectModalContent extends Component {
                 >
                     <div className={'closeButtonContainer'}>
 
-                        <FontAwesomeIcon className={'modalCloseIcon'} icon={faTimes} onClick={this.props.hideProjectModal}/>
+                        <FontAwesomeIcon className={'modalCloseIcon'} icon={faTimes}
+                                         onClick={this.props.hideProjectModal}/>
 
                     </div>
 
@@ -31,6 +32,8 @@ class ProjectModalContent extends Component {
                         <Row>
                             <Col>
                                 <div className={'projectModalLeftHalf'}>
+                                    <h1>{this.props.projectName} </h1>
+                                    <div className={'divider'}/>
 
                                     <img src={this.props.projectImage} alt="" className="projectImage"/>
 
@@ -39,16 +42,15 @@ class ProjectModalContent extends Component {
                             </Col>
                         </Row>
                         <Row>
-                            <Col >
+                            <Col>
                                 <div className={'projectModalRightHalf'}>
                                     <div className={'modalTextContainer'}>
-                                        <h1>{this.props.projectName} </h1>
-                                        <div className={'divider'}/>
+
                                         <p>
                                             {this.props.projectDescription}
                                         </p>
 
-                                        <p className={'technologiesUsedHeader'}> <b>  Technologies used include: </b></p>
+                                        <p className={'technologiesUsedHeader'}><b> Technologies used include: </b></p>
                                         {this.props.technologiesUsed}
                                     </div>
                                     <div className={'modalLinkButtonsContainer'}>
@@ -59,7 +61,7 @@ class ProjectModalContent extends Component {
                                                 onClick={this.props.hideProjectModal}
                                             >
                                                 {this.props.projectLinkName}
-                                                <FontAwesomeIcon  className={'buttonIcon'}icon={faExternalLinkAlt}/>
+                                                <FontAwesomeIcon className={'buttonIcon'} icon={faExternalLinkAlt}/>
 
 
                                             </Button>
