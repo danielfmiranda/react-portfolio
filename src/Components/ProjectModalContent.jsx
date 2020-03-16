@@ -5,10 +5,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import '../Css/ProjectModal.css'
-import portfolioImage2 from "../portfolioTestPictures/timelyCover.jpeg";
-import refillrImage from "../portfolioTestPictures/refillrTestPhoto.png";
-import greendlyImage from "../portfolioTestPictures/greendly.png";
-import socialCompileImage from "../portfolioTestPictures/socialCompile.png";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";

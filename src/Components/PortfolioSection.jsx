@@ -20,15 +20,8 @@ class PortfolioSection extends Component {
 
                     <Container className={'portfolioPhotoContainer'}>
                         <Row>
-                            <Col lg={6} md={6}>
-                                <div className={'responsiveColumn'}>
-                                    <div className="container" onClick={() => this.props.showProjectModal(1)}>
-                                        <img src={portfolioImage2} alt="" className="image"/>
-                                    </div>
-                                </div>
-                                                                    <h5> Timely </h5>
 
-                            </Col>
+
                             <Col lg={6} md={6}>
                                 <div className={'responsiveColumn'}>
                                     <div className="container" onClick={() => this.props.showProjectModal(2)}>
@@ -38,6 +31,16 @@ class PortfolioSection extends Component {
                                     <h5> Refillr </h5>
 
                             </Col>
+                            <Col lg={6} md={6}>
+                                <div className={'responsiveColumn'}>
+                                    <div className="container" onClick={() => this.props.showProjectModal(1)}>
+                                        <img src={portfolioImage2} alt="" className="image"/>
+                                    </div>
+                                </div>
+                                                                    <h5> Timely </h5>
+
+                            </Col>
+
                             <Col lg={6} md={6}>
                                 <div className={'responsiveColumn'}>
                                     <div className="container" onClick={() => this.props.showProjectModal(3)}>
