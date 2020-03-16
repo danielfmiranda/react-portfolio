@@ -25,6 +25,13 @@
 
 }
 
+
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+
 .image {
     opacity: 1;
     display: block;
@@ -83,3 +90,4 @@
 }
 
 }
+
