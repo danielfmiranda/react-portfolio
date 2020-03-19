@@ -26,7 +26,7 @@ class ProjectModal extends Component {
                         </div>
                     }
                     projectImage={portfolioImage2}
-                    projectLink={'comingSoon'}
+                    projectLink={'timely-demo.herokuapp.com'}
                     projectLinkName={'Live Demo'}
                     gitHubLink={'https://github.com/manieldiranda/timely'}
 
