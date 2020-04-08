@@ -22,7 +22,7 @@ class HeroDiv extends Component {
 
                         <div className={'contentText'}>
 
-                            <h1> Hi, I'm Daniel </h1>
+                            <h1> Daniel Miranda </h1>
                             <h5> I am a full stack web developer based out of the East Bay Area.
                             </h5>
                             <p> Currently working under the Automation Team at Kaiser Permanente, I use the latest

@@ -32,7 +32,10 @@ background-size: cover;
 }
 
 .contentText h1 {
-    font-size: 4rem;
+        font-family: Baskerville;
+
+    font-weight: 600;
+    font-size:6.5rem;
 }
 
 
@@ -60,7 +63,12 @@ background-size: cover;
 
 @media (max-width: 700px) {
 
+.contentText h1 {
+        font-family: Baskerville;
 
+    font-weight: 600;
+    font-size:4.5rem;
+}
 
 
 }

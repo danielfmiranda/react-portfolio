@@ -4,6 +4,8 @@ import HeroDiv from "./HeroDiv";
 import PortfolioSection from "./PortfolioSection";
 import Footer from './Footer';
 import ProjectModal from './ProjectModal';
+import '../Css/Container.css'
+
 
 
 class Container extends Component {

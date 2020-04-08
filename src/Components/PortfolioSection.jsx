@@ -15,7 +15,7 @@ class PortfolioSection extends Component {
         return (
             <div className={'portfolioContainer'} id={'#portfolio'}>
                 <div className={'portfolioContent'}>
-                    <h1 className={'portfolioHeading'}> PORTFOLIO </h1>
+                    <h1 className={'portfolioHeading'}>  My recent work </h1>
                     <div className={'portfolioDivider'}/>
 
                     <Container className={'portfolioPhotoContainer'}>

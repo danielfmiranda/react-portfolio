@@ -17,13 +17,6 @@ class NavigationBar extends Component {
             <div>
                 <Navbar collapseOnSelect expand={'md'} bg="dark" variant="dark" fixed="top">
                     <Navbar.Brand>
-                        <img
-                            alt=""
-                            src={icon}
-                            width="30"
-                            height="30"
-                            className="d-inline-block align-top"
-                        />{' '}
                         Daniel Miranda
                     </Navbar.Brand>
 

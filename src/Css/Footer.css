@@ -8,11 +8,20 @@
     color: white;
     text-align: center;
 
+    font-family: Baskerville;
+
+
 }
 
 .footerContent a {
         color: white;
     text-align: center;
+}
+
+.footerContent h4{
+font-weight: 600;
+
+
 }
 
 .socialIcon  {
