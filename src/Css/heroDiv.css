@@ -32,7 +32,7 @@ background-size: cover;
 }
 
 .contentText h1 {
-        font-family: Baskerville;
+        font-family: libre Baskerville !important;
 
     font-weight: 600;
     font-size:6.5rem;

@@ -1,5 +1,5 @@
 body h1
  {
-    font-family:libre Baskerville;
+    font-family:libre Baskerville !important;
     font-weight: 600;
 }
