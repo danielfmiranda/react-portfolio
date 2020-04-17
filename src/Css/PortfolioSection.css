@@ -82,6 +82,16 @@
 
 }
 
+@media (max-width: 450px) {
+.portfolioHeading {
+letter-spacing: -5px !important;
+}
+
+
+
+
+}
+
 
 
 @media (min-width: 750px) {
