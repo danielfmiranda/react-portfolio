@@ -40,7 +40,7 @@ font-weight: 600;
 
 @media (max-width: 450px) {
 .footerContent h4{
-letter-spacing: -5px !important;
+letter-spacing: -3px !important;
 font-weight: 600;
 
 }
