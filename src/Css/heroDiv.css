@@ -35,7 +35,7 @@ background-size: cover;
         font-family: libre Baskerville !important;
 
     font-weight: 600;
-    font-size:6.5rem;
+    font-size:5rem;
 }
 
 
@@ -61,13 +61,27 @@ background-size: cover;
 
 }
 
-@media (max-width: 700px) {
+@media (min-width:700px) and (max-width: 1200px) {
+    .heroDivContent {
+        position: absolute;
+        width:80%;
+        left:10%;
+        top: 25%;
+        text-align: center;
+
+
+    }
+
+
+}
+
+@media (max-width: 870px) {
 
 .contentText h1 {
-        font-family: Baskerville;
+        font-family: libre Baskerville !important;
 
     font-weight: 600;
-    font-size:4.5rem;
+    font-size:4rem;
 }
 
 
