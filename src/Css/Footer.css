@@ -36,3 +36,14 @@ font-weight: 600;
     color: #829998;
     transition-duration: .3s;
 }
+
+
+@media (max-width: 450px) {
+.footerContent h4{
+letter-spacing: -5px !important;
+
+}
+
+
+
+}
