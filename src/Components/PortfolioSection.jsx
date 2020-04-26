@@ -10,13 +10,12 @@ import socialCompileImage from '../portfolioTestPictures/socialCompileDesktop.pn
 import loteriaImage from '../portfolioTestPictures/loteriaDesktop.PNG';
 
 
-
 class PortfolioSection extends Component {
     render() {
         return (
             <div className={'portfolioContainer'} id={'#portfolio'}>
                 <div className={'portfolioContent'}>
-                    <h1 className={'portfolioHeading'}>  My recent work </h1>
+                    <h1 className={'portfolioHeading'}> My recent work </h1>
                     <div className={'portfolioDivider'}/>
 
                     <Container className={'portfolioPhotoContainer'}>
@@ -25,16 +24,16 @@ class PortfolioSection extends Component {
                             <Col lg={3} md={3}>
 
                             </Col>
-                                                        <Col lg={6} md={6}>
+                            <Col lg={6} md={6}>
                                 <div className={'responsiveColumn'}>
                                     <div className="container" onClick={() => this.props.showProjectModal(5)}>
                                         <img src={loteriaImage} alt="" className="image"/>
                                     </div>
                                 </div>
-                                    <h5> Loteria </h5>
+                                <h5> Loteria </h5>
 
                             </Col>
-                                                        <Col lg={3} md={3}>
+                            <Col lg={3} md={3}>
 
 
                             </Col>
@@ -44,7 +43,7 @@ class PortfolioSection extends Component {
                                         <img src={refillrImage} alt="" className="image"/>
                                     </div>
                                 </div>
-                                    <h5> Refillr </h5>
+                                <h5> Refillr </h5>
 
                             </Col>
                             <Col lg={6} md={6}>
@@ -53,7 +52,7 @@ class PortfolioSection extends Component {
                                         <img src={portfolioImage2} alt="" className="image"/>
                                     </div>
                                 </div>
-                                                                    <h5> Timely </h5>
+                                <h5> Timely </h5>
 
                             </Col>
 
@@ -63,7 +62,7 @@ class PortfolioSection extends Component {
                                         <img src={greendlyImage} alt="" className="image"/>
                                     </div>
                                 </div>
-                                    <h5> Greendly </h5>
+                                <h5> Greendly </h5>
 
                             </Col>
                             <Col lg={6} md={6}>
@@ -72,7 +71,7 @@ class PortfolioSection extends Component {
                                         <img src={socialCompileImage} alt="" className="image"/>
                                     </div>
                                 </div>
-                                    <h5> SocialCompile </h5>
+                                <h5> SocialCompile </h5>
 
                             </Col>
                             {/*<Col lg={4} md={6}>*/}

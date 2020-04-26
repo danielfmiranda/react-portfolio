@@ -41,6 +41,7 @@ class HeroDiv extends Component {
                                     brother.
 
                                 </p>
+
                                 <Button onClick={this.tryThis} className={'seeMyWorkButton'} variant="outline-primary">See
                                     my work</Button>
                             </motion.div>

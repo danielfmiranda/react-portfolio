@@ -26,6 +26,7 @@ class Footer extends Component {
                         <FontAwesomeIcon className={'socialIcon'} icon={faEnvelopeSquare}/>
                         {/*<FontAwesomeIcon className={'socialIcon'} icon={faStackOverflow}/>*/}
                     </a>
+
                 </div>
             </div>
         );

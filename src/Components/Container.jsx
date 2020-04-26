@@ -4,8 +4,7 @@ import HeroDiv from "./HeroDiv";
 import PortfolioSection from "./PortfolioSection";
 import Footer from './Footer';
 import ProjectModal from './ProjectModal';
-import '../Css/Container.css'
-
+import '../Css/Container.css';
 
 
 class Container extends Component {
@@ -35,12 +34,11 @@ class Container extends Component {
     };
 
 
-
     render() {
         return (
             <div>
                 <NavigationBar
-                showResumeModal={this.showResumeModal}
+                    showResumeModal={this.showResumeModal}
                 />
                 <HeroDiv/>
                 <PortfolioSection
