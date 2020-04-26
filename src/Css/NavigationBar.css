@@ -21,3 +21,8 @@
 .resumeLink {
         color: rgba(255,255,255,.5) !important;
 }
+
+.navbar-dark .navbar-nav .active>.nav-link{
+color: rgba(255,255,255,.5) !important;
+
+}

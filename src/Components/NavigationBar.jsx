@@ -29,16 +29,11 @@ class NavigationBar extends Component {
 
     }
 
-    scrollToSection = (sectionId) => {
-        document.getElementById(sectionId).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-    }
-
-
     render() {
         return (
             <div>
                 <Navbar
-                    expand={'md'} bg="dark" variant="dark" fixed="top">
+                  expanded={this.state.expanded}  expand={'sm'} bg="dark" variant="dark" fixed="top">
                     <Navbar.Brand>
                         Daniel Miranda
                     </Navbar.Brand>
@@ -47,7 +42,7 @@ class NavigationBar extends Component {
                     <Navbar.Toggle
                         onClick={this.expandNavBarClick}
                         aria-controls="responsive-navbar-nav"/>
-                    <Navbar.Collapse collapseOnSelect={true} id="responsive-navbar-nav">
+                    <Navbar.Collapse expanded={this.state.expanded} id="responsive-navbar-nav">
                         <Nav collapseOnSelect className="mr-auto hamburgerMenuDropDown">
 
 
