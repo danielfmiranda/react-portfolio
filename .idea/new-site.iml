@@ -5,6 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="refillr" />
+    <orderEntry type="module" module-name="loteria" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">

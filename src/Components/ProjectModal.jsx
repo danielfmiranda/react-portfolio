@@ -6,6 +6,7 @@ import portfolioImage2 from "../portfolioTestPictures/timelyDesktop.png";
 import refillrImage from "../portfolioTestPictures/refillrDesktop.PNG";
 import greendlyImage from "../portfolioTestPictures/greendlyDesktop.PNG";
 import socialCompileImage from "../portfolioTestPictures/socialCompileDesktop.png";
+import loteriaImage from "../portfolioTestPictures/loteriaDesktop.PNG";
 
 import ProjectModalContent from "./ProjectModalContent";
 
@@ -85,6 +86,25 @@ class ProjectModal extends Component {
                     projectLink={'http://socialcompile.com'}
                     projectLinkName={'SocialCompile.com'}
                     gitHubLink={null}
+
+
+                />;
+                 case 5:
+                return <ProjectModalContent
+                    hideProjectModal={this.props.hideProjectModal}
+                    projectName={'Loteria'}
+                    projectDescription={`Recreation of Google's Loteria doodle, a mexican game of chance similar to bingo.`}
+                    technologiesUsed={
+                        <div className={'technologiesUsed'}>
+                            <li> React</li>
+                            <li> HTML</li>
+                            <li> CSS</li>
+                        </div>
+                    }
+                    projectImage={loteriaImage}
+                    projectLink={'http://dannys-loteria.netlify.app'}
+                    projectLinkName={'Live Demo'}
+                    gitHubLink={'http://github.com/manieldiranda/loteria'}
 
 
                 />;

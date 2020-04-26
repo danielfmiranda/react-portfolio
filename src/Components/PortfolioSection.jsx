@@ -7,6 +7,7 @@ import portfolioImage2 from '../portfolioTestPictures/timelyDesktop.png';
 import refillrImage from '../portfolioTestPictures/refillrDesktop.PNG';
 import greendlyImage from '../portfolioTestPictures/greendlyDesktop.PNG';
 import socialCompileImage from '../portfolioTestPictures/socialCompileDesktop.png';
+import loteriaImage from '../portfolioTestPictures/loteriaDesktop.PNG';
 
 
 
@@ -21,7 +22,22 @@ class PortfolioSection extends Component {
                     <Container className={'portfolioPhotoContainer'}>
                         <Row>
 
+                            <Col lg={3} md={6}>
 
+                            </Col>
+                                                        <Col lg={6} md={6}>
+                                <div className={'responsiveColumn'}>
+                                    <div className="container" onClick={() => this.props.showProjectModal(5)}>
+                                        <img src={loteriaImage} alt="" className="image"/>
+                                    </div>
+                                </div>
+                                    <h5> Loteria </h5>
+
+                            </Col>
+                                                        <Col lg={3} md={6}>
+
+
+                            </Col>
                             <Col lg={6} md={6}>
                                 <div className={'responsiveColumn'}>
                                     <div className="container" onClick={() => this.props.showProjectModal(2)}>
