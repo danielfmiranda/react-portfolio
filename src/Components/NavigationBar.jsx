@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import icon from '../portfolioTestPictures/icon.png';
 import '../Css/NavigationBar.css'
+import resume from '../portfolioTestPictures/Daniel Miranda Resume.pdf';
 
 class NavigationBar extends Component {
+
 
 
     scrollToSection = (sectionId) => {
@@ -30,7 +31,7 @@ class NavigationBar extends Component {
       <Nav.Link   onClick={(e) => this.scrollToSection('#heroDiv')}>About</Nav.Link>
       <Nav.Link  onClick={(e) => this.scrollToSection('#portfolio')}>Projects</Nav.Link>
               <Nav.Link  onClick={(e) => this.scrollToSection('#contact')} >Contact</Nav.Link>
-
+              <Nav.Link className={'resumeLink'} href = {resume} target = "_blank">Resume</Nav.Link>
 
 
     </Nav>

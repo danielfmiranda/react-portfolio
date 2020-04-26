@@ -89,16 +89,19 @@ class ProjectModal extends Component {
 
 
                 />;
-                 case 5:
+            case 5:
                 return <ProjectModalContent
                     hideProjectModal={this.props.hideProjectModal}
                     projectName={'Loteria'}
                     projectDescription={`Recreation of Google's Loteria doodle, a mexican game of chance similar to bingo.`}
                     technologiesUsed={
-                        <div className={'technologiesUsed'}>
-                            <li> React</li>
-                            <li> HTML</li>
-                            <li> CSS</li>
+                        <div>
+                            <div className={'technologiesUsed'}>
+                                <li> React</li>
+                                <li> HTML</li>
+                                <li> CSS</li>
+                            </div>
+                            <b><p> Multiplayer coming soon!</p></b>
                         </div>
                     }
                     projectImage={loteriaImage}
@@ -120,12 +123,12 @@ class ProjectModal extends Component {
         return (
             <div>
                 <Modal
-        dialogClassName="modal-90w"
-                            aria-labelledby="example-custom-modal-styling-title"
+                    dialogClassName="modal-90w"
+                    aria-labelledby="example-custom-modal-styling-title"
 
 
                     centered
-                    show={this.props.showModal}
+                    show={this.props.showProjectModal}
                 >
 
                     {this.projectContentSwitch(this.props.projectSelected)}

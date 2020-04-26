@@ -12,7 +12,7 @@ class Container extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            showModal: false,
+            showProjectModal: false,
             projectSelected: 1
 
         };
@@ -20,14 +20,14 @@ class Container extends Component {
 
     showProjectModal = (projectSelected) => {
         this.setState({
-            showModal: true,
+            showProjectModal: true,
             projectSelected: projectSelected
         })
     };
 
     hideProjectModal = (projectSelected) => {
         this.setState({
-            showModal: false,
+            showProjectModal: false,
             projectSelected: projectSelected
 
 
@@ -35,10 +35,13 @@ class Container extends Component {
     };
 
 
+
     render() {
         return (
             <div>
-                <NavigationBar/>
+                <NavigationBar
+                showResumeModal={this.showResumeModal}
+                />
                 <HeroDiv/>
                 <PortfolioSection
                     id={'#portfolio'}
@@ -46,7 +49,7 @@ class Container extends Component {
                 />
                 <Footer/>
                 <ProjectModal
-                    showModal={this.state.showModal}
+                    showProjectModal={this.state.showProjectModal}
                     hideProjectModal={this.hideProjectModal}
                     projectSelected={this.state.projectSelected}
 

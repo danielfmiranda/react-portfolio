@@ -22,7 +22,7 @@ class PortfolioSection extends Component {
                     <Container className={'portfolioPhotoContainer'}>
                         <Row>
 
-                            <Col lg={3} md={6}>
+                            <Col lg={3} md={3}>
 
                             </Col>
                                                         <Col lg={6} md={6}>
@@ -34,7 +34,7 @@ class PortfolioSection extends Component {
                                     <h5> Loteria </h5>
 
                             </Col>
-                                                        <Col lg={3} md={6}>
+                                                        <Col lg={3} md={3}>
 
 
                             </Col>
