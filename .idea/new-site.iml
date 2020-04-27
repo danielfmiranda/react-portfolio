@@ -6,6 +6,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="refillr" />
     <orderEntry type="module" module-name="loteria" />
+    <orderEntry type="module" module-name="timely" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">

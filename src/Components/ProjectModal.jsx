@@ -45,7 +45,7 @@ class ProjectModal extends Component {
                         </div>
                     }
                     projectImage={refillrImage}
-                    projectLink={'comingSoon'}
+                    projectLink={'https://refillr-demo.herokuapp.com'}
                     projectLinkName={'Live Demo'}
                     gitHubLink={'https://github.com/manieldiranda/refillr'}
 
