@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Modal from 'react-bootstrap/Modal';
 
 import '../Css/ProjectModal.css'
-import portfolioImage2 from "../portfolioTestPictures/timelyDesktop.png";
+import portfolioImage2 from "../portfolioTestPictures/timelyDesktop2.PNG";
 import refillrImage from "../portfolioTestPictures/refillrDesktop.PNG";
 import greendlyImage from "../portfolioTestPictures/greendlyDesktop.PNG";
 import socialCompileImage from "../portfolioTestPictures/socialCompileDesktop.png";
