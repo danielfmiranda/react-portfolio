@@ -8,6 +8,7 @@ import refillrImage from '../portfolioTestPictures/refillrDesktop.PNG';
 import greendlyImage from '../portfolioTestPictures/greendlyDesktop.PNG';
 import socialCompileImage from '../portfolioTestPictures/socialCompileDesktop.png';
 import loteriaImage from '../portfolioTestPictures/loteriaDesktop.PNG';
+import socialMediaDashboardImage from '../portfolioTestPictures/socialMediaDashboard.PNG'
 
 
 class PortfolioSection extends Component {
@@ -21,10 +22,8 @@ class PortfolioSection extends Component {
                     <Container className={'portfolioPhotoContainer'}>
                         <Row>
 
-                            <Col lg={3} md={3}>
 
-                            </Col>
-                            <Col lg={6} md={6}>
+                            <Col lg={4} md={6}>
                                 <div className={'responsiveColumn'}>
                                     <div className="container" onClick={() => this.props.showProjectModal(5)}>
                                         <img src={loteriaImage} alt="" className="image"/>
@@ -33,20 +32,7 @@ class PortfolioSection extends Component {
                                 <h5> Loteria </h5>
 
                             </Col>
-                            <Col lg={3} md={3}>
-
-
-                            </Col>
-                            <Col lg={6} md={6}>
-                                <div className={'responsiveColumn'}>
-                                    <div className="container" onClick={() => this.props.showProjectModal(2)}>
-                                        <img src={refillrImage} alt="" className="image"/>
-                                    </div>
-                                </div>
-                                <h5> Refillr </h5>
-
-                            </Col>
-                            <Col lg={6} md={6}>
+                            <Col lg={4} md={6}>
                                 <div className={'responsiveColumn'}>
                                     <div className="container" onClick={() => this.props.showProjectModal(1)}>
                                         <img src={portfolioImage2} alt="" className="image"/>
@@ -56,7 +42,27 @@ class PortfolioSection extends Component {
 
                             </Col>
 
-                            <Col lg={6} md={6}>
+                            <Col lg={4} md={6}>
+                                <div className={'responsiveColumn'}>
+                                    <div className="container" onClick={() => this.props.showProjectModal(2)}>
+                                        <img src={refillrImage} alt="" className="image"/>
+                                    </div>
+                                </div>
+                                <h5> Refillr </h5>
+
+                            </Col>
+
+                            <Col lg={4} md={6}>
+                                <div className={'responsiveColumn'}>
+                                    <div className="container" onClick={() => this.props.showProjectModal(6)}>
+                                        <img src={socialMediaDashboardImage} alt="" className="image"/>
+                                    </div>
+                                </div>
+                                <h5> Social Media Dashboard </h5>
+
+                            </Col>
+
+                            <Col lg={4} md={6}>
                                 <div className={'responsiveColumn'}>
                                     <div className="container" onClick={() => this.props.showProjectModal(3)}>
                                         <img src={greendlyImage} alt="" className="image"/>
@@ -65,7 +71,7 @@ class PortfolioSection extends Component {
                                 <h5> Greendly </h5>
 
                             </Col>
-                            <Col lg={6} md={6}>
+                            <Col lg={4} md={6}>
                                 <div className={'responsiveColumn'}>
                                     <div className="container" onClick={() => this.props.showProjectModal(4)}>
                                         <img src={socialCompileImage} alt="" className="image"/>
@@ -74,22 +80,6 @@ class PortfolioSection extends Component {
                                 <h5> SocialCompile </h5>
 
                             </Col>
-                            {/*<Col lg={4} md={6}>*/}
-                            {/*    <div className={'responsiveColumn'}>*/}
-                            {/*        <div className="container">*/}
-                            {/*            <img src={portfolioImage2} alt="" className="image"/>*/}
-                            {/*        </div>*/}
-                            {/*    </div>*/}
-
-                            {/*</Col>*/}
-                            {/*<Col lg={4} md={6}>*/}
-                            {/*    <div className={'responsiveColumn'}>*/}
-                            {/*        <div className="container">*/}
-                            {/*            <img src={portfolioImage2} alt="" className="image"/>*/}
-                            {/*        </div>*/}
-                            {/*    </div>*/}
-
-                            {/*</Col>*/}
 
 
                         </Row>

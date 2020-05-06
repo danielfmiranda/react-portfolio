@@ -7,6 +7,7 @@ import refillrImage from "../portfolioTestPictures/refillrDesktop.PNG";
 import greendlyImage from "../portfolioTestPictures/greendlyDesktop.PNG";
 import socialCompileImage from "../portfolioTestPictures/socialCompileDesktop.png";
 import loteriaImage from "../portfolioTestPictures/loteriaDesktop.PNG";
+import socialMediaDashboardImage from '../portfolioTestPictures/socialMediaDashboard.PNG';
 
 import ProjectModalContent from "./ProjectModalContent";
 
@@ -111,6 +112,31 @@ class ProjectModal extends Component {
 
 
                 />;
+            case 6:
+                return <ProjectModalContent
+                    hideProjectModal={this.props.hideProjectModal}
+                    projectName={'Social Media Dashboard'}
+                    projectDescription={`A responsive dashboard to track views and likes across all platforms`}
+                    technologiesUsed={
+                        <div>
+                            <div className={'technologiesUsed'}>
+                                <li> React</li>
+                                <li> HTML</li>
+                                <li> CSS</li>
+                            </div>
+                           <p>  <b>Note: </b> Test data being used on live demo</p>
+
+
+                        </div>
+                    }
+                    projectImage={socialMediaDashboardImage}
+                    projectLink={'http://daniels-social-media-dashboard.netlify.app'}
+                    projectLinkName={'Live Demo'}
+                    gitHubLink={'http://github.com/manieldiranda/social_media_dashboard'}
+
+
+                />;
+
             default:
                 return null;
         }

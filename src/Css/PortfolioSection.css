@@ -5,6 +5,10 @@
 
 }
 
+.portfolioPhotoContainer{
+    max-width: 1300px !important;
+}
+
 .portfolioHeading {
     font-weight: bolder;
     margin-top: 1.5rem;
