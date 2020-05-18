@@ -11,17 +11,6 @@ class ContactMeSection extends Component {
                         <h1 className={'portfolioHeading'}> Contact Me </h1>
                     </div>
                     <div className={'portfolioDivider'}/>
-                    <form name="contact" netlify>
-                        <p>
-                            <label>Name <input type="text" name="name"/></label>
-                        </p>
-                        <p>
-                            <label>Email <input type="email" name="email"/></label>
-                        </p>
-                        <p>
-                            <button type="submit">Send</button>
-                        </p>
-                    </form>
                     <div className="row">
                         <div className="col-lg-8 mx-auto">
                             <form id="contactForm" name="contact" noValidate="novalidate" netlify
