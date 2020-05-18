@@ -1,5 +1,21 @@
 .navLinks {
     display: inline-flex;
+    color:white !important;
+}
+
+
+
+.navbar{
+    color:white !important;
+        transition-duration: 0.2s;
+
+
+}
+
+.navBarTransparent {
+    background-color: transparent !important;
+    transition-duration: 0.2s;
+
 }
 
 @media(max-width: 750px) {
@@ -22,7 +38,7 @@
         color: rgba(255,255,255,.5) !important;
 }
 
-.navbar-dark .navbar-nav .active>.nav-link{
-color: rgba(255,255,255,.5) !important;
+/*.navbar-dark .navbar-nav .active>.nav-link{*/
+/*color: rgba(255,255,255,.5) !important;*/
 
-}
+/*}*/

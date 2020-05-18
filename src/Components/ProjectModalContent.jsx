@@ -50,7 +50,7 @@ class ProjectModalContent extends Component {
                                         {this.props.technologiesUsed}
                                     </div>
                                     <div className={'modalLinkButtonsContainer'}>
-                                        <a href={this.props.projectLink}>
+                                        <a href={this.props.projectLink} target={'_blank'}>
                                             <Button
                                                 className={'modalLinkButton'}
                                                 variant="primary"
@@ -65,7 +65,7 @@ class ProjectModalContent extends Component {
 
                                         {this.props.gitHubLink === null ? (null) : (
 
-                                            <a href={this.props.gitHubLink}>
+                                            <a href={this.props.gitHubLink} target={'_blank'}>
                                                 <Button
                                                     className={'modalLinkButton'}
                                                     variant="primary"

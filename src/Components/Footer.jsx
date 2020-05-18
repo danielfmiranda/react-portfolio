@@ -12,11 +12,11 @@ class Footer extends Component {
                 <div className={'footerContent'}>
                     <h4> Find me on the web! </h4>
 
-                    <a href={"https://github.com/manieldiranda"}>
+                    <a href={"https://github.com/manieldiranda"} target={'_blank'}>
                         <FontAwesomeIcon className={'socialIcon'} icon={faGithubSquare}/>
                     </a>
 
-                    <a href={"https://www.linkedin.com/in/daniel-f-miranda/"}>
+                    <a href={"https://www.linkedin.com/in/daniel-f-miranda/"} target={'_blank'}>
 
                         <FontAwesomeIcon className={'socialIcon'} icon={faLinkedin}/>
                     </a>

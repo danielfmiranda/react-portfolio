@@ -8,6 +8,7 @@ import greendlyImage from "../portfolioTestPictures/greendlyDesktop.PNG";
 import socialCompileImage from "../portfolioTestPictures/socialCompileDesktop.png";
 import loteriaImage from "../portfolioTestPictures/loteriaDesktop.PNG";
 import socialMediaDashboardImage from '../portfolioTestPictures/socialMediaDashboard.PNG';
+import fyloImage from '../portfolioTestPictures/fyloDesktop.png';
 
 import ProjectModalContent from "./ProjectModalContent";
 
@@ -124,7 +125,7 @@ class ProjectModal extends Component {
                                 <li> HTML</li>
                                 <li> CSS</li>
                             </div>
-                           <p>  <b>Note: </b> Test data being used on live demo</p>
+                            <p><b>Note: </b> Test data being used on live demo</p>
 
 
                         </div>
@@ -133,6 +134,29 @@ class ProjectModal extends Component {
                     projectLink={'http://daniels-social-media-dashboard.netlify.app'}
                     projectLinkName={'Live Demo'}
                     gitHubLink={'http://github.com/manieldiranda/social_media_dashboard'}
+
+
+                />;
+            case 7:
+                return <ProjectModalContent
+                    hideProjectModal={this.props.hideProjectModal}
+                    projectName={'Fylo Landing Page'}
+                    projectDescription={` Responsive landing page for a fictional tech company called Fylo. I used assets from FrontendMentor.io and coded the landing page using React.`}
+                    technologiesUsed={
+                        <div>
+                            <div className={'technologiesUsed'}>
+                                <li> React</li>
+                                <li> HTML</li>
+                                <li> CSS</li>
+                            </div>
+
+
+                        </div>
+                    }
+                    projectImage={fyloImage}
+                    projectLink={'http://fylo-demo.netlify.app'}
+                    projectLinkName={'Live Demo'}
+                    gitHubLink={'http://github.com/manieldiranda/fylo_landing_page'}
 
 
                 />;

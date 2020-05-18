@@ -5,6 +5,7 @@ import PortfolioSection from "./PortfolioSection";
 import Footer from './Footer';
 import ProjectModal from './ProjectModal';
 import '../Css/Container.css';
+import ContactMeSection from "./ContactMeSection";
 
 
 class Container extends Component {
@@ -45,6 +46,7 @@ class Container extends Component {
                     id={'#portfolio'}
                     showProjectModal={this.showProjectModal}
                 />
+                <ContactMeSection/>
                 <Footer/>
                 <ProjectModal
                     showProjectModal={this.state.showProjectModal}

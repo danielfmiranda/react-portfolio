@@ -10,9 +10,15 @@ class NavigationBar extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            expanded: false
+            expanded: false,
+            navBarTransparent: true
 
         };
+    }
+
+    componentDidMount() {
+        window.addEventListener("scroll", this.handleScroll);
+
     }
 
     expandNavBarClick = () => {
@@ -27,20 +33,43 @@ class NavigationBar extends Component {
         }
 
 
-    }
+    };
+
+
+    handleScroll = () => {
+        const {prevScrollpos} = this.state;
+
+        const currentScrollPos = window.pageYOffset;
+        const visible = currentScrollPos > 216;
+        console.log(currentScrollPos);
+        //216
+        if (currentScrollPos > 180) {
+            this.setState({
+                navBarTransparent: false
+            });
+
+        }
+        else {
+                       this.setState({
+                navBarTransparent: true
+            });
+        }
+    };
 
     render() {
         return (
             <div>
                 <Navbar
-                  expanded={this.state.expanded}  expand={'sm'} bg="dark" variant="dark" fixed="top">
+                    className={this.state.navBarTransparent === true ? ('navBarTransparent') : ('navBar')}
+                    onScroll={(e) => this.senseScroll}
+                    expanded={this.state.expanded} expand={'sm'} bg="dark" variant="dark" fixed="top">
                     <Navbar.Brand>
                         Daniel Miranda
                     </Navbar.Brand>
 
 
                     <Navbar.Toggle
-                        onClick={this.expandNavBarClick}
+                        // onClick={this.expandNavBarClick}
                         aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse expanded={this.state.expanded} id="responsive-navbar-nav">
                         <Nav collapseOnSelect className="mr-auto hamburgerMenuDropDown">
@@ -54,7 +83,7 @@ class NavigationBar extends Component {
                             >
 
                                 <Nav.Link
-                                    onClick={this.expandNavBarClick}
+                                    // onClick={this.expandNavBarClick}
                                 >About</Nav.Link>
                             </Link>
 
@@ -67,7 +96,7 @@ class NavigationBar extends Component {
 
 
                                 <Nav.Link
-                                    onClick={this.expandNavBarClick}
+                                    // onClick={this.expandNavBarClick}
 
                                 >Projects</Nav.Link>
                             </Link>
@@ -79,7 +108,7 @@ class NavigationBar extends Component {
                             >
 
                                 <Nav.Link
-                                    onClick={this.expandNavBarClick}
+                                    // onClick={this.expandNavBarClick}
 
                                 >Contact</Nav.Link>
                             </Link>

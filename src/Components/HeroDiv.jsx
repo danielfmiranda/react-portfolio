@@ -32,13 +32,13 @@ class HeroDiv extends Component {
                                 <h1> Daniel Miranda </h1>
 
 
-                                <h5> I am a full stack web developer based out of the East Bay Area.
+                                <h5> I am a <b>full-stack</b> web developer based out of the East Bay Area.
                                 </h5>
                                 <p> Currently working under the Automation Team at Kaiser Permanente, I use the latest
                                     technologies to build applications that aid Kaiser in our mission to provide
                                     quality, affordable healthcare.</p>
-                                <p> Outside of work, I enjoy working on cars, cycling, and spending time with my younger
-                                    brother.
+                                <p> Outside of work, I enjoy working on cars 🚗, cycling 🚴‍♂️, and spending time with my younger
+                                    brother 👦🏻.
 
                                 </p>
 

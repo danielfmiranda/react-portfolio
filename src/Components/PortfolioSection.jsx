@@ -8,7 +8,8 @@ import refillrImage from '../portfolioTestPictures/refillrDesktop.PNG';
 import greendlyImage from '../portfolioTestPictures/greendlyDesktop.PNG';
 import socialCompileImage from '../portfolioTestPictures/socialCompileDesktop.png';
 import loteriaImage from '../portfolioTestPictures/loteriaDesktop.PNG';
-import socialMediaDashboardImage from '../portfolioTestPictures/socialMediaDashboard.PNG'
+import socialMediaDashboardImage from '../portfolioTestPictures/socialMediaDashboard.PNG';
+import fyloImage from '../portfolioTestPictures/fyloDesktop.png';
 
 
 class PortfolioSection extends Component {
@@ -78,6 +79,23 @@ class PortfolioSection extends Component {
                                     </div>
                                 </div>
                                 <h5> SocialCompile </h5>
+
+                            </Col>
+                               <Col lg={4} md={3}>
+
+                            </Col>
+                            <Col lg={4} md={6}>
+                                <div className={'responsiveColumn'}>
+                                    <div className="container" onClick={() => this.props.showProjectModal(7)}>
+                                        <img src={fyloImage} alt="" className="image"/>
+                                    </div>
+                                </div>
+                                <h5> Fylo Landing Page </h5>
+
+
+                            </Col>
+
+                            <Col lg={4} md={3}>
 
                             </Col>
 
