@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import Button from 'react-bootstrap/Button'
 import '../Css/heroDiv.css';
 import {motion} from "framer-motion"
+import {Link} from "react-scroll/modules";
+import Nav from "react-bootstrap/Nav";
 
 
 class HeroDiv extends Component {
@@ -37,13 +39,24 @@ class HeroDiv extends Component {
                                 <p> Currently working under the Automation Team at Kaiser Permanente, I use the latest
                                     technologies to build applications that aid Kaiser in our mission to provide
                                     quality, affordable healthcare.</p>
-                                <p> Outside of work, I enjoy working on cars 🚗, cycling 🚴‍♂️, and spending time with my younger
+                                <p> Outside of work, I enjoy working on cars 🚗, cycling 🚴‍♂️, and spending time with
+                                    my younger
                                     brother 👦🏻.
 
                                 </p>
 
-                                <Button onClick={this.tryThis} className={'seeMyWorkButton'} variant="outline-primary">See
-                                    my work</Button>
+
+                                <Link to="#portfolio"
+                                      spy={true}
+                                      smooth={true}
+                                      duration={1500}
+                                >
+
+
+                                    <Button onClick={this.tryThis} className={'seeMyWorkButton'}
+                                            variant="outline-primary">See
+                                        my work</Button>
+                                </Link>
                             </motion.div>
                         </div>
                     </div>

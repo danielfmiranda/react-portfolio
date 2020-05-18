@@ -82,14 +82,14 @@ class ContactMeSection extends Component {
                                 <input type="hidden" name="form-name" value="contact"/>
 
                                 <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Name</label><input className="form-control" type="text"
+                                    <label>Name:</label><input className="form-control" type="text"
                                                               placeholder="Name"
                                                               required="required"
                                                               name="name"
                                                               data-validation-required-message="Please enter your name."/>
                                 </div>
                                 <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Name</label><input className="form-control" type="email"
+                                    <label>Email:</label><input className="form-control" type="email"
                                                               placeholder="Email"
                                                               required="required"
                                                               name="email"
@@ -97,7 +97,7 @@ class ContactMeSection extends Component {
                                 </div>
 
                                 <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Name</label><input className="form-control" type="text"
+                                    <label>Phone:</label><input className="form-control" type="text"
                                                               placeholder="Phone"
                                                               name="phone"
                                 />
