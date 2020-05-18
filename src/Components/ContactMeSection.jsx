@@ -76,42 +76,62 @@ class ContactMeSection extends Component {
                             {/*                type="submit">Send*/}
                             {/*        </button>*/}
                             {/*    </div>*/}
+                            {/*/!*</form>*!/*/}
+                            {/*<form name="contact" method="post">*/}
+
+                            {/*    <div className="form-group floating-label-form-group controls mb-0 pb-2">*/}
+                            {/*        <label>Name</label><input className="form-control" type="text"*/}
+                            {/*                                  placeholder="Name"*/}
+                            {/*                                  required="required"*/}
+                            {/*                                  name="name"*/}
+                            {/*                                  data-validation-required-message="Please enter your name."/>*/}
+                            {/*    </div>*/}
+                            {/*    <div className="form-group floating-label-form-group controls mb-0 pb-2">*/}
+                            {/*        <label>Name</label><input className="form-control" type="email"*/}
+                            {/*                                  placeholder="Email"*/}
+                            {/*                                  required="required"*/}
+                            {/*                                  name="email"*/}
+                            {/*                                  data-validation-required-message="Please enter your email."/>*/}
+                            {/*    </div>*/}
+
+                            {/*    <div className="form-group floating-label-form-group controls mb-0 pb-2">*/}
+                            {/*        <label>Name</label><input className="form-control" type="text"*/}
+                            {/*                                  placeholder="Phone"*/}
+                            {/*                                  name="phone"*/}
+                            {/*    />*/}
+                            {/*    </div>*/}
+
+                            {/*    <div className="form-group floating-label-form-group controls mb-0 pb-2">*/}
+                            {/*        <label>Message</label><textarea className="form-control" rows="5"*/}
+                            {/*                                        placeholder="Message" required="required"*/}
+                            {/*                                        name="message"*/}
+                            {/*                                        data-validation-required-message="Please enter a message."></textarea>*/}
+                            {/*    </div>*/}
+                            {/*    <div className="form-group">*/}
+                            {/*        <button className="btn btn-primary btn-xl" id="sendMessageButton"*/}
+                            {/*                type="submit">Send*/}
+                            {/*        </button>*/}
+                            {/*    </div>*/}
                             {/*</form>*/}
+
+
                             <form name="contact" method="post">
-
-                                <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Name</label><input className="form-control" type="text"
-                                                              placeholder="Name"
-                                                              required="required"
-                                                              name="name"
-                                                              data-validation-required-message="Please enter your name."/>
-                                </div>
-                                <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Name</label><input className="form-control" type="email"
-                                                              placeholder="Email"
-                                                              required="required"
-                                                              name="email"
-                                                              data-validation-required-message="Please enter your email."/>
-                                </div>
-
-                                <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Name</label><input className="form-control" type="text"
-                                                              placeholder="Phone"
-                                                              name="phone"
-                                />
-                                </div>
-
-                                <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Message</label><textarea className="form-control" rows="5"
-                                                                    placeholder="Message" required="required"
-                                                                    name="message"
-                                                                    data-validation-required-message="Please enter a message."></textarea>
-                                </div>
-                                <div className="form-group">
-                                    <button className="btn btn-primary btn-xl" id="sendMessageButton"
-                                            type="submit">Send
-                                    </button>
-                                </div>
+                                <input type="hidden" name="form-name" value="contact"/>
+                                <p>
+                                    <label>Your Name: <input type="text" name="name"/></label>
+                                </p>
+                                <p>
+                                    <label>Your Email: <input type="email" name="email"/></label>
+                                </p>
+                                <p>
+                                    <label>Phone: <input type="text" name="phone"/></label>
+                                </p>
+                                <p>
+                                    <label>Message: <textarea name="message"></textarea></label>
+                                </p>
+                                <p>
+                                    <button type="submit">Send</button>
+                                </p>
                             </form>
 
 
