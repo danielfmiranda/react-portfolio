@@ -23,7 +23,7 @@ class ContactMeSection extends Component {
 
     render() {
         return (
-            <div className={'contactMeFormContainer'}>
+            <div className={'contactMeFormContainer'} id={'#contact'}>
                 <div className="container">
                     <div className={'titleContainer'}>
                         <h1 className={'portfolioHeading'}> Contact Me </h1>

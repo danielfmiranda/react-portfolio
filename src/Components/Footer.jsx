@@ -8,7 +8,7 @@ import {faEnvelopeSquare} from "@fortawesome/free-solid-svg-icons";
 class Footer extends Component {
     render() {
         return (
-            <div className={'footerContainer'} id={'#contact'}>
+            <div className={'footerContainer'} >
                 <div className={'footerContent'}>
                     <h4> Find me on the web! </h4>
 
