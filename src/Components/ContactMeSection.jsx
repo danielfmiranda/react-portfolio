@@ -33,7 +33,7 @@ class ContactMeSection extends Component {
                     <div className={'portfolioDivider'}/>
                     <div className="row">
                         <div className="col-lg-8 mx-auto">
-                            <form id="contactForm" name="contact" noValidate="novalidate" name="contact" method="post">
+                            <form name="contact" noValidate="novalidate" method="post">
                                 <div className="control-group">
                                     <div className="form-group floating-label-form-group controls mb-0 pb-2">
                                         <label>Name</label><input className="form-control" id="name" type="text"

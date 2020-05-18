@@ -22,14 +22,31 @@ class NavigationBar extends Component {
     }
 
     expandNavBarClick = () => {
+        const currentScrollPos = window.pageYOffset;
+
         if (this.state.expanded === false) {
             this.setState({
-                expanded: true
+                expanded: true,
+                navBarTransparent: false
+
             })
         } else {
-            this.setState({
-                expanded: false
-            })
+
+            if (currentScrollPos > 180) {
+                this.setState({
+                    expanded: false,
+
+                })
+            } else {
+
+                this.setState({
+                    expanded: false,
+                    navBarTransparent: true
+
+                })
+
+            }
+
         }
 
 
@@ -48,9 +65,8 @@ class NavigationBar extends Component {
                 navBarTransparent: false
             });
 
-        }
-        else {
-                       this.setState({
+        } else {
+            this.setState({
                 navBarTransparent: true
             });
         }
@@ -69,7 +85,7 @@ class NavigationBar extends Component {
 
 
                     <Navbar.Toggle
-                        // onClick={this.expandNavBarClick}
+                        onClick={this.expandNavBarClick}
                         aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse expanded={this.state.expanded} id="responsive-navbar-nav">
                         <Nav collapseOnSelect className="mr-auto hamburgerMenuDropDown">
