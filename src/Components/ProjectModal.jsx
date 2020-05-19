@@ -21,11 +21,11 @@ class ProjectModal extends Component {
                 return <ProjectModalContent
                     hideProjectModal={this.props.hideProjectModal}
                     projectName={'Timely'}
-                    projectDescription={'Employee time management app that gives users ability to clock in and out, and managers the ability to view their teams clock ins, and edit/delete entries.'}
+                    projectDescription={'Employee time management app that gives employees ability to clock in and out of shifts, and admins/managers the ability to view their teams entries as well as some general team data visualization.'}
                     technologiesUsed={
                         <div className={'technologiesUsed'}>
-                            <li> React</li>
-                            <li> Django/REST</li>
+                            <li> React - ( <b>Frontend</b> )</li>
+                            <li> Django/REST - ( <b>Backend/API</b> )</li>
                         </div>
                     }
                     projectImage={portfolioImage2}
@@ -42,8 +42,9 @@ class ProjectModal extends Component {
                     projectDescription={'Application to help users find and add water bottle refill stations with an interactive google map.'}
                     technologiesUsed={
                         <div className={'technologiesUsed'}>
-                            <li> React</li>
-                            <li> Django/REST</li>
+                            <li> React - ( <b>Frontend</b> )</li>
+                            <li> React-Google-Map - ( <b>Map Component</b> )</li>
+                            <li> Django/REST - ( <b>Backend/API</b> )</li>
                         </div>
                     }
                     projectImage={refillrImage}
@@ -60,9 +61,9 @@ class ProjectModal extends Component {
                     projectDescription={'Online shop for Greendly, a brand that sells high quality, affordable, zero waste products.'}
                     technologiesUsed={
                         <div className={'technologiesUsed'}>
-                            <li> Shopify</li>
-                            <li> HTML</li>
-                            <li> CSS</li>
+                            <li> Shopify - ( <b>Hosting</b> )</li>
+                            <li> HTML - ( <b>Frontend</b> )</li>
+                            <li> CSS - ( <b>Styling</b> )</li>
                         </div>
                     }
                     projectImage={greendlyImage}
@@ -79,9 +80,9 @@ class ProjectModal extends Component {
                     projectDescription={'Landing site for Social Compile, a upcoming platform to bring together travel influencers and advertisers in one of the fastest growing social media niches.'}
                     technologiesUsed={
                         <div className={'technologiesUsed'}>
-                            <li> Wordpress</li>
-                            <li> HTML</li>
-                            <li> CSS</li>
+                            <li> WordPress - ( <b>Hosting</b> )</li>
+                            <li> HTML - ( <b>Frontend</b> )</li>
+                            <li> CSS - ( <b>Styling</b> )</li>
                         </div>
                     }
                     projectImage={socialCompileImage}
@@ -95,14 +96,15 @@ class ProjectModal extends Component {
                 return <ProjectModalContent
                     hideProjectModal={this.props.hideProjectModal}
                     projectName={'Loteria'}
-                    projectDescription={`Recreation of Google's Loteria doodle, a mexican game of chance similar to bingo.`}
+                    projectDescription={`Recreation of Google's Loteria doodle, a mexican game similar to bingo. I built the game logic using ReactJS and built the card using Bootstrap's grid system.`}
                     technologiesUsed={
                         <div>
                             <div className={'technologiesUsed'}>
-                                <li> React</li>
-                                <li> HTML</li>
-                                <li> CSS</li>
+                                <li> React - ( <b>Frontend</b> )</li>
+                                <li> HTML - ( <b>Frontend</b> )</li>
+                                <li> CSS - ( <b>Styling</b> )</li>
                             </div>
+
                             <b><p> Multiplayer coming soon!</p></b>
                         </div>
                     }
@@ -121,9 +123,10 @@ class ProjectModal extends Component {
                     technologiesUsed={
                         <div>
                             <div className={'technologiesUsed'}>
-                                <li> React</li>
-                                <li> HTML</li>
-                                <li> CSS</li>
+                                <li> React - ( <b>Frontend</b> )</li>
+                                <li> HTML - ( <b>Frontend</b> )</li>
+                                <li> CSS - ( <b>Styling</b> )</li>
+                                <li> Bootstrap - ( <b>Grid System</b> )</li>
                             </div>
                             <p><b>Note: </b> Test data being used on live demo</p>
 
@@ -145,9 +148,10 @@ class ProjectModal extends Component {
                     technologiesUsed={
                         <div>
                             <div className={'technologiesUsed'}>
-                                <li> React</li>
-                                <li> HTML</li>
-                                <li> CSS</li>
+                                <li> React - ( <b>Frontend</b> )</li>
+                                <li> HTML - ( <b>Frontend</b> )</li>
+                                <li> CSS - ( <b>Styling</b> )</li>
+                                <li> Bootstrap - ( <b>Grid System</b> )</li>
                             </div>
 
 
