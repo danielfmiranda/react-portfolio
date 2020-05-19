@@ -25,6 +25,7 @@ class ProjectModal extends Component {
                     technologiesUsed={
                         <div className={'technologiesUsed'}>
                             <li> React - ( <b>Frontend</b> )</li>
+                            <li> Graph.js - ( <b>Data Visualization</b> )</li>
                             <li> Django/REST - ( <b>Backend/API</b> )</li>
                         </div>
                     }
