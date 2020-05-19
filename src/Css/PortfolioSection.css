@@ -72,7 +72,7 @@
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 765px) {
 
     .responsiveColumn {
         position: relative;
@@ -81,7 +81,14 @@
         margin-top: 2rem;
         margin-bottom:2rem;
         width: 95%;
-        left: -6%;
+        margin: auto;
+        max-width: 500px;
+    }
+
+    .container{
+        max-width: 100% !important;
+        margin-top:2rem;
+        margin-bottom:2rem;
     }
 
 
@@ -92,7 +99,9 @@
 letter-spacing: -3px !important;
 }
 
-
+    .container{
+        max-width: 100% !important;
+    }
 
 
 }
