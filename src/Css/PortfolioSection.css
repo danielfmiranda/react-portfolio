@@ -98,9 +98,7 @@
 }
 
 @media (max-width: 450px) {
-.portfolioHeading {
-letter-spacing: -3px !important;
-}
+
 
     .container{
         max-width: 100% !important;

@@ -80,18 +80,21 @@ font-family: 'Oswald', sans-serif !important;
 .contentText h1 {
 font-family: 'Oswald', sans-serif !important;
 
-    font-weight: 600;
+    font-weight: 500;
     font-size:4rem;
+
 }
 
-
+.contentText{
+    text-align: center;
+}
 }
 
 @media (max-width: 450px) {
 .contentText h1 {
 font-family: 'Oswald', sans-serif !important;
 letter-spacing: -2px;
-    font-weight: 400;
+    font-weight: 500;
     font-size:4rem;
 }
 
