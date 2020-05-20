@@ -7,3 +7,7 @@
     text-align: center;
     padding-top:3em;
 }
+
+.react-reveal{
+    width:100% !important;
+}

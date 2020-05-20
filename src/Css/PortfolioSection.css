@@ -16,6 +16,9 @@
 }
 
 
+.react-reveal {
+    width:33% !important;
+}
 .responsiveColumn {
     background-color: #2d2d2f;
     border-radius: 1%;

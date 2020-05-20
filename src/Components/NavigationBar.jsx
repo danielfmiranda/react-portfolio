@@ -75,10 +75,12 @@ class NavigationBar extends Component {
     render() {
         return (
             <div>
+
                 <Navbar
                     className={this.state.navBarTransparent === true ? ('navBarTransparent') : ('navBar')}
                     onScroll={(e) => this.senseScroll}
                     expanded={this.state.expanded} expand={'sm'} bg="dark" variant="dark" fixed="top">
+
                     <Navbar.Brand>
                         Daniel Miranda
                     </Navbar.Brand>
