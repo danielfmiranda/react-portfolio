@@ -54,11 +54,8 @@ class NavigationBar extends Component {
 
 
     handleScroll = () => {
-        const {prevScrollpos} = this.state;
 
         const currentScrollPos = window.pageYOffset;
-        const visible = currentScrollPos > 216;
-        console.log(currentScrollPos);
         //216
         if (currentScrollPos > 180) {
             this.setState({
@@ -90,7 +87,7 @@ class NavigationBar extends Component {
                         onClick={this.expandNavBarClick}
                         aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse expanded={this.state.expanded} id="responsive-navbar-nav">
-                        <Nav collapseOnSelect className="mr-auto hamburgerMenuDropDown">
+                        <Nav  className="mr-auto hamburgerMenuDropDown">
 
 
                             <Link to="#heroDiv"

@@ -2,12 +2,15 @@
     import Button from 'react-bootstrap/Button'
     import '../Css/heroDiv.css';
     import {motion} from "framer-motion"
-    import Nav from "react-bootstrap/Nav";
     import {Link} from "react-scroll";
 
 
 
     class HeroDiv extends Component {
+
+        componentDidMount() {
+            console.log('Component will receive props error is from react-boostrap not my code, thank you! - Daniel')
+        }
 
         tryThis = () => {
             document.getElementById('#portfolio').scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"})
@@ -40,9 +43,10 @@
                                     <p> Currently working under the Automation Team at Kaiser Permanente, I use the latest
                                         technologies to build applications that aid Kaiser in our mission to provide
                                         quality, affordable healthcare.</p>
-                                    <p> Outside of work, I enjoy working on cars 🚗, cycling 🚴‍♂️, and spending time with
+                                    <p> Outside of work, I enjoy working on cars <span role="img" aria-label="car">🚗</span>,
+ cycling <span role="img" aria-label="cyclist">🚴‍♂</span>️, and spending time with
                                         my younger
-                                        brother 👦🏻.
+                                        brother <span role="img" aria-label="brother">👦🏻</span>.
 
                                     </p>
 

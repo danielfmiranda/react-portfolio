@@ -10,7 +10,6 @@ import socialCompileImage from '../portfolioTestPictures/socialCompileDesktop.pn
 import loteriaImage from '../portfolioTestPictures/loteriaDesktop.PNG';
 import socialMediaDashboardImage from '../portfolioTestPictures/socialMediaDashboard.PNG';
 import fyloImage from '../portfolioTestPictures/fyloDesktop.png';
-import {motion} from "framer-motion";
 import Fade from 'react-reveal/Fade';
 
 
@@ -42,22 +41,6 @@ class PortfolioSection extends Component {
                                 </Fade>
                             </Col>
 
-                            <Col lg={4} md={6}>
-
-                                <Fade className={'contactFormFadeContainer'} bottom delay={100}>
-
-                                    <div>
-                                        <div className={'responsiveColumn'}>
-                                            <div className="container" onClick={() => this.props.showProjectModal(1)}>
-                                                <img src={portfolioImage2} alt="" className="image"/>
-                                            </div>
-                                        </div>
-                                        <h5> Timely </h5>
-
-                                    </div>
-                                </Fade>
-                            </Col>
-
 
                             <Col lg={4} md={6}>
                                 <Fade className={'contactFormFadeContainer'} bottom delay={200}>
@@ -74,7 +57,23 @@ class PortfolioSection extends Component {
                             </Col>
 
                             <Col lg={4} md={6}>
-                                <Fade className={'contactFormFadeContainer'} bottom>
+
+                                <Fade className={'contactFormFadeContainer'} bottom delay={200}>
+
+                                    <div>
+                                        <div className={'responsiveColumn'}>
+                                            <div className="container" onClick={() => this.props.showProjectModal(1)}>
+                                                <img src={portfolioImage2} alt="" className="image"/>
+                                            </div>
+                                        </div>
+                                        <h5> Timely </h5>
+
+                                    </div>
+                                </Fade>
+                            </Col>
+
+                            <Col lg={4} md={6}>
+                                <Fade className={'contactFormFadeContainer'} bottom >
 
                                     <div>
                                         <div className={'responsiveColumn'}>
@@ -87,37 +86,9 @@ class PortfolioSection extends Component {
                                 </Fade>
                             </Col>
 
+
                             <Col lg={4} md={6}>
                                 <Fade className={'contactFormFadeContainer'} bottom delay={100}>
-
-                                    <div>
-                                        <div className={'responsiveColumn'}>
-                                            <div className="container" onClick={() => this.props.showProjectModal(3)}>
-                                                <img src={greendlyImage} alt="" className="image"/>
-                                            </div>
-                                        </div>
-                                        <h5> Greendly </h5>
-                                    </div>
-                                </Fade>
-                            </Col>
-                            <Col lg={4} md={6}>
-                                <Fade className={'contactFormFadeContainer'} bottom delay={200}>
-
-                                    <div>
-                                        <div className={'responsiveColumn'}>
-                                            <div className="container" onClick={() => this.props.showProjectModal(4)}>
-                                                <img src={socialCompileImage} alt="" className="image"/>
-                                            </div>
-                                        </div>
-                                        <h5> SocialCompile </h5>
-                                    </div>
-                                </Fade>
-                            </Col>
-                            <Col lg={4} md={3}>
-
-                            </Col>
-                            <Col lg={4} md={6}>
-                                <Fade className={'contactFormFadeContainer'} bottom>
 
                                     <div>
                                         <div className={'responsiveColumn'}>
@@ -131,12 +102,47 @@ class PortfolioSection extends Component {
                                 </Fade>
                             </Col>
 
+
+
+
+                            <Col lg={4} md={6}>
+                                <Fade className={'contactFormFadeContainer'} bottom delay={200}>
+
+                                    <div>
+                                        <div className={'responsiveColumn'}>
+                                            <div className="container" onClick={() => this.props.showProjectModal(3)}>
+                                                <img src={greendlyImage} alt="" className="image"/>
+                                            </div>
+                                        </div>
+                                        <h5> Greendly </h5>
+                                    </div>
+                                </Fade>
+                            </Col>
+
+                            <Col lg={4} md={3}>
+
+                            </Col>
+                             <Col lg={4} md={6}>
+                                <Fade className={'contactFormFadeContainer'} bottom>
+
+                                    <div >
+                                        <div className={'responsiveColumn'}>
+                                            <div className="container" onClick={() => this.props.showProjectModal(4)}>
+                                                <img src={socialCompileImage} alt="" className="image"/>
+                                            </div>
+                                        </div>
+                                        <h5> SocialCompile </h5>
+                                    </div>
+                                </Fade>
+                            </Col>
+
+
                             <Col lg={4} md={3}>
 
                             </Col>
 
                         </Row>
-                    </Container>
+                    </Container >
                 </div>
             </div>
         )

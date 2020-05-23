@@ -4,7 +4,6 @@ import '../Css/Footer.css'
 import {faGithubSquare} from "@fortawesome/free-brands-svg-icons/faGithubSquare";
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons/faLinkedin";
 import {faEnvelopeSquare} from "@fortawesome/free-solid-svg-icons";
-import Fade from 'react-reveal/Fade';
 
 
 class Footer extends Component {

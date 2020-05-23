@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import '../Css/ContactMeSection.css'
 import Fade from 'react-reveal/Fade';
 
@@ -24,8 +23,8 @@ class ContactMeSection extends Component {
 
     render() {
         return (
-            <div className={'contactMeFormContainer'} id={'#contact'}>
-                <div className="container">
+            <div className={'contactMeFormContainer'} id={'#contact'} >
+                <div className="container" >
 
                     <div className={'titleContainer'}>
                         <h1 className={'portfolioHeading'}> Contact Me </h1>
