@@ -40,7 +40,7 @@ class ProjectModal extends Component {
                 return <ProjectModalContent
                     hideProjectModal={this.props.hideProjectModal}
                     projectName={'Refillr'}
-                    projectDescription={'Application to help users find and add water bottle refill stations with an interactive google map.'}
+                    projectDescription={'Mobile-first web app made with React.Js and Django to help users find and add water bottle refill stations with an interactive google map.'}
                     technologiesUsed={
                         <div className={'technologiesUsed'}>
                             <li> React - ( <b>Frontend</b> )</li>
