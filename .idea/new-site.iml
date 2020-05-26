@@ -7,6 +7,7 @@
     <orderEntry type="module" module-name="refillr" />
     <orderEntry type="module" module-name="loteria" />
     <orderEntry type="module" module-name="timely" />
+    <orderEntry type="module" module-name="phaser_platformer" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">

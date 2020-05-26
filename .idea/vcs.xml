@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$USER_HOME$/Desktop/phaser_platformer" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../loteria" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../timely" vcs="Git" />
   </component>
