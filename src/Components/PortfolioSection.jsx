@@ -114,7 +114,7 @@ class PortfolioSection extends Component {
                                                 <img src={pineapplerImage} alt="" className="image"/>
                                             </div>
                                         </div>
-                                        <h5> Pineappler </h5>
+                                        <h5> DanBoy </h5>
                                     </div>
                                 </Fade>
                             </Col>

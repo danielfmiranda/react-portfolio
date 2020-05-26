@@ -58,7 +58,7 @@ class ProjectModal extends Component {
             case 3:
                 return <ProjectModalContent
                     hideProjectModal={this.props.hideProjectModal}
-                    projectName={'Pineappler'}
+                    projectName={'DanBoy'}
                     projectDescription={'Platformer game made with Phaser 3 for the game engine. Use the arrow keys to collect as many pineapples as you can, and watch out for the bouncing bombs!'}
                     technologiesUsed={
                         <div className={'technologiesUsed'}>
