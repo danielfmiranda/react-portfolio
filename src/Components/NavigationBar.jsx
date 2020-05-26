@@ -84,6 +84,7 @@ class NavigationBar extends Component {
 
 
                     <Navbar.Toggle
+                        className={'navToggle'}
                         onClick={this.expandNavBarClick}
                         aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse expanded={this.state.expanded} id="responsive-navbar-nav">

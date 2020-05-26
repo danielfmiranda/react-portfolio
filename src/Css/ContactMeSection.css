@@ -11,3 +11,7 @@
 .react-reveal{
     width:100% !important;
 }
+
+.form-control{
+    margin-top:1em;
+}

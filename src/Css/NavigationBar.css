@@ -1,13 +1,12 @@
 .navLinks {
     display: inline-flex;
-    color:white !important;
+    color: white !important;
 }
 
 
-
-.navbar{
-    color:white !important;
-        transition-duration: 0.2s;
+.navbar {
+    color: white !important;
+    transition-duration: 0.2s;
 
 
 }
@@ -18,24 +17,24 @@
 
 }
 
-@media(max-width: 750px) {
-    .navLinks{
+@media (max-width: 750px) {
+    .navLinks {
         display: none;
     }
 }
 
-.mr-auto{
-    margin-left:auto !important;
-    margin-right:0 !important;
+.mr-auto {
+    margin-left: auto !important;
+    margin-right: 0 !important;
 
 }
 
-.hamburgerMenuDropDown{
+.hamburgerMenuDropDown {
     text-align: center;
 }
 
 .resumeLink {
-        color: rgba(255,255,255,.5) !important;
+    color: rgba(255, 255, 255, .5) !important;
 }
 
 /*.navbar-dark .navbar-nav .active>.nav-link{*/
@@ -43,4 +42,11 @@
 
 /*}*/
 
+@media (max-width: 750px) {
+
+    .navToggle {
+        display: none;
+    }
+
+}
 

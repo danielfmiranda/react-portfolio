@@ -40,7 +40,7 @@ class ContactMeSection extends Component {
                                     <input type="hidden" name="form-name" value="contact"/>
 
                                     <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                        <label>Name:</label><input className="form-control" type="text"
+                                        <input className="form-control" type="text"
                                                                    placeholder="Name"
                                                                    required="required"
                                                                    name="name"
@@ -49,7 +49,7 @@ class ContactMeSection extends Component {
 
 
                                     <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                        <label>Email:</label><input className="form-control" type="email"
+                                       <input className="form-control" type="email"
                                                                     placeholder="Email"
                                                                     required="required"
                                                                     name="email"
@@ -58,7 +58,7 @@ class ContactMeSection extends Component {
 
 
                                     <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                        <label>Phone:</label><input className="form-control" type="text"
+                                       <input className="form-control" type="text"
                                                                     placeholder="Phone"
                                                                     name="phone"
                                     />
@@ -66,10 +66,10 @@ class ContactMeSection extends Component {
 
 
                                     <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                        <label>Message</label><textarea className="form-control" rows="5"
+                                       <textarea className="form-control" rows="5"
                                                                         placeholder="Message" required="required"
                                                                         name="message"
-                                                                        data-validation-required-message="Please enter a message."></textarea>
+                                                                        data-validation-required-message="Please enter a message."/>
                                     </div>
 
                                     <div className="form-group">
