@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import '../Css/NavigationBar.css'
-import resume from '../portfolioTestPictures/Daniel Miranda PDF Resume.pdf';
+import resume from '../portfolioTestPictures/Daniel Miranda Resume.pdf';
 import {Link} from "react-scroll";
 
 
