@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import portfolioImage2 from '../portfolioTestPictures/timelyDesktop2.PNG';
 import refillrImage from '../portfolioTestPictures/refillrDesktop.PNG';
-import greendlyImage from '../portfolioTestPictures/greendlyDesktop.PNG';
+import pineapplerImage from '../portfolioTestPictures/pineapplerDesktop.PNG';
 import socialCompileImage from '../portfolioTestPictures/socialCompileDesktop.png';
 import loteriaImage from '../portfolioTestPictures/loteriaDesktop.PNG';
 import socialMediaDashboardImage from '../portfolioTestPictures/socialMediaDashboard.PNG';
@@ -111,7 +111,7 @@ class PortfolioSection extends Component {
                                     <div>
                                         <div className={'responsiveColumn'}>
                                             <div className="container" onClick={() => this.props.showProjectModal(3)}>
-                                                <img src={greendlyImage} alt="" className="image"/>
+                                                <img src={pineapplerImage} alt="" className="image"/>
                                             </div>
                                         </div>
                                         <h5> Greendly </h5>

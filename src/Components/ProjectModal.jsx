@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 import '../Css/ProjectModal.css'
 import portfolioImage2 from "../portfolioTestPictures/timelyDesktop2.PNG";
 import refillrImage from "../portfolioTestPictures/refillrDesktop.PNG";
-import greendlyImage from "../portfolioTestPictures/greendlyDesktop.PNG";
+import pineapplerImage from "../portfolioTestPictures/pineapplerDesktop.PNG";
 import socialCompileImage from "../portfolioTestPictures/socialCompileDesktop.png";
 import loteriaImage from "../portfolioTestPictures/loteriaDesktop.PNG";
 import socialMediaDashboardImage from '../portfolioTestPictures/socialMediaDashboard.PNG';
@@ -58,19 +58,21 @@ class ProjectModal extends Component {
             case 3:
                 return <ProjectModalContent
                     hideProjectModal={this.props.hideProjectModal}
-                    projectName={'Greendly'}
-                    projectDescription={'Online shop for Greendly, a brand that sells high quality, affordable, zero waste products.'}
+                    projectName={'Pineappler'}
+                    projectDescription={'Platformer game made with Phaser 3 for the game engine. Use the arrow keys to collect as many pineapples as you can, and watch out for the bouncing bombs!'}
                     technologiesUsed={
                         <div className={'technologiesUsed'}>
-                            <li> Shopify - ( <b>Hosting</b> )</li>
+                            <li> PhaserJS - ( <b>Game Engine</b> )</li>
                             <li> HTML - ( <b>Frontend</b> )</li>
                             <li> CSS - ( <b>Styling</b> )</li>
+                            <br/>
+                            <b><p> *Mobile support coming soon!</p></b>
                         </div>
                     }
-                    projectImage={greendlyImage}
-                    projectLink={'http://www.greendly.co'}
-                    projectLinkName={'greendly.co'}
-                    gitHubLink={null}
+                    projectImage={pineapplerImage}
+                    projectLink={'https://pineappler.netlify.app/'}
+                    projectLinkName={'Live Demo'}
+                    gitHubLink={'https://github.com/manieldiranda/phaser_platformer'}
 
 
                 />;
