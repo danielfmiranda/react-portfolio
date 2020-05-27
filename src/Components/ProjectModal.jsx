@@ -70,7 +70,7 @@ class ProjectModal extends Component {
                         </div>
                     }
                     projectImage={pineapplerImage}
-                    projectLink={'https://pineappler.netlify.app/'}
+                    projectLink={'https://danboy.netlify.app/'}
                     projectLinkName={'Live Demo'}
                     gitHubLink={'https://github.com/manieldiranda/phaser_platformer'}
 
