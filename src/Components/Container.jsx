@@ -19,9 +19,6 @@ class Container extends Component {
         };
     }
 
-    componentDidMount() {
-        ReactGA.initialize('UA-167751693-1');
-    }
 
     showProjectModal = (projectSelected) => {
         this.setState({

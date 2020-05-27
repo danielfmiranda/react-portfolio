@@ -2,8 +2,15 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from './Components/Container';
+import ReactGA from "react-ga";
 
 
+function    initializeReactGA() {
+        ReactGA.initialize('UA-167751693-1');
+        ReactGA.initialize('/homepage');
+    }
+
+initializeReactGA();
 
 function App() {
     return (
