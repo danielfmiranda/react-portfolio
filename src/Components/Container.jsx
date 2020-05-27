@@ -6,6 +6,7 @@ import Footer from './Footer';
 import ProjectModal from './ProjectModal';
 import '../Css/Container.css';
 import ContactMeSection from "./ContactMeSection";
+import ReactGA from "react-ga";
 
 
 class Container extends Component {
@@ -16,6 +17,10 @@ class Container extends Component {
             projectSelected: 1
 
         };
+    }
+
+    componentDidMount() {
+        ReactGA.initialize('UA-167751693-1');
     }
 
     showProjectModal = (projectSelected) => {
